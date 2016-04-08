@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>订单详情</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/information.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/custombox.min.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/sweetalert.css" type="text/css" rel="stylesheet">
+</head>
+<body class="bg_gray">
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4 ">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            确认详情
+        </li>
+        <li class="pure-u-1-4">
+            <a href="service.html" class="ft-12">售后服务</a>
+        </li>
+    </ul>
+</header>
+<div class="order_state pure-g">
+    <div class="same-width">
+        <span class="pull-left ft-12">
+            订单编号:<span>ymr2312313131</span>
+        </span>
+        <span class="ft-12 gray pull-right">已取消</span>
+    </div>
+</div>
+<div class="pure-g info_area orderlist">
+    <ul>
+        <li class="address-area">
+            <div>
+                <span class="name">某某某</span>
+                <span class="address-type">公司</span>
+            </div>
+            <div class="address-area-info">
+                <p>
+                    <span>上海</span>
+                    <span>上海市</span>
+                    <span>徐汇区</span>
+                </p>
+
+                <p class="address-info">
+                    钦州北路1199号87号楼891号
+                </p>
+            </div>
+            <div class="">138****6711</div>
+        </li>
+        <li>
+            <label>配送时间</label>
+            <span class="pull-right gray">2015-12-04&nbsp;09:00-18:00</span>
+        </li>
+        <li class="no_border has_allow">
+            <a href="orderfollow.html">
+                <label>物流查询</label>
+                <span class="pull-right gray">已送到</span>
+            </a>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <label>支付金额</label>
+            <span class="pull-right orange">￥28.00</span>
+        </li>
+        <li>
+            <label>支付方式</label>
+            <span class="pull-right gray">支付宝</span>
+
+        </li>
+        <li>
+            <label>下单时间</label>
+            <span class="pull-right gray">2015-12-03&nbsp;15:14:57</span>
+        </li>
+        <li>
+            <label>支付状态</label>
+            <span class="pull-right gray">已付款</span>
+        </li>
+        <li class="no_border">
+            <label>配送状态</label>
+            <span class="pull-right gray">未配送</span>
+        </li>
+    </ul>
+    <ul class="spear-goods">
+        <li>
+            <span>商品清单</span>
+        </li>
+        <li>
+            <div class="row-block pure-g insert_goods">
+                <div class="pure-u-1-3 photo">
+                    <img src="images/goods/product-3.jpg">
+                </div>
+                <div class="pure-u-2-3 goods_info">
+                    <p class="title">新西兰奇异果</p>
+
+                    <p>
+                        <span class="size">2只装</span>
+                        <span class="count">x2</span>
+                    </p>
+                    <span class="price pull-left orange">￥88.0</span>
+                </div>
+            </div>
+        </li>
+        <li class="no_border">
+            <div class="row-block pure-g insert_goods">
+                <div class="pure-u-1-3 photo">
+                    <img src="images/goods/product-4.jpg">
+                </div>
+                <div class="pure-u-2-3 goods_info">
+                    <p class="title">新西兰奇异果</p>
+
+                    <p>
+                        <span class="size">2只装</span>
+                        <span class="count">x2</span>
+                    </p>
+                    <span class="price pull-left orange">￥88.0</span>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <ul class="spear-goods">
+        <li>
+            <label>订单金额</label>
+            <span class="orange pull-right">￥207.00</span>
+        </li>
+        <li>
+            <label>运费</label>
+            <span class="pull-right gray">￥10.00</span>
+        </li>
+        <li class="no_border">
+            <label>优惠券抵扣</label>
+            <span class="pull-right gray">￥10.00</span>
+        </li>
+    </ul>
+    <ul class="spear-goods">
+        <li class="no_border">
+            <label>备注</label>
+            <span class="pull-right gray">备注内容部分</span>
+        </li>
+    </ul>
+</div>
+
+
+<div class="operate-btn-group pure-g">
+    <div class="same-width">
+        <div class="pure-u-1-2">
+            <button class="pull-left cancel detele-order">
+                取消订单
+            </button>
+        </div>
+        <div class="pure-u-1-2">
+            <button class="pull-right quick-pay">
+                立即支付
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/informationController','./js/common/orderController'], function (info,order) {
+        info.checklogistics();
+        order.deleteorder();
+    })
+</script>
+</body>
+</html>

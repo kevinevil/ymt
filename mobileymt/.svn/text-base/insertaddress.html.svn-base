@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>添加收货地址</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/information.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/switchery.min.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/custombox.min.css" type="text/css" rel="stylesheet">
+</head>
+<body class="bg_gray">
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4 ">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            添加收货地址
+        </li>
+        <li class="pure-u-1-4">
+            <p class="save_info">保存</p>
+        </li>
+    </ul>
+</header>
+<div class="pure-g info_area">
+    <div class="insert-address-error"></div>
+    <form class="insert-address">
+        <ul>
+            <li>
+                <label>收货人</label>
+                <input class="text-right" type="text" name="consigneeName" placeholder="请收入收收货人姓名">
+            </li>
+            <li>
+                <a href="javascript:;" class="address-area">
+                    <label>区域选择</label>
+                    <input type="text" name="consigneeArea" placeholder="请选择地点区域" id="address_area">
+                    <input type="hidden" id="address_area_id">
+                    <input type="hidden" id="address_area_name">
+                </a>
+            </li>
+            <li>
+                <label>详细地址</label>
+                <input class="text-right" type="text" name="consigneeAddress" placeholder="请收入详细地址信息">
+            </li>
+            <li>
+                <label>收货手机</label>
+                <input class="text-right" type="text" name="consigneePhone" placeholder="请输入收货手机号">
+            </li>
+            <li>
+                <a href="javascript:;" class="select_anywhere" data-selector="address-type">
+                    <label>地址类型</label>
+                    <input class="text-right" type="text" id="select-address-type" placeholder="请选择地址类型">
+                </a>
+            </li>
+            <li class="no_border">
+                <label>设为默认地址</label>
+                <input type="checkbox" class="js-switch js-check-click pull-right" checked/>
+            </li>
+        </ul>
+    </form>
+</div>
+
+<button class="delete-this-btn">
+    注销地址
+</button>
+
+<div id="address-type" class="modal">
+    <p class="title">
+        地址类型
+    </p>
+    <ul class="select-address-type">
+        <li>
+            家
+        </li>
+        <li>
+            公司
+        </li>
+        <li>
+            其他
+        </li>
+    </ul>
+</div>
+
+<div id="address-area" class="modal">
+    <dl class="area province">
+        <dt>请选择 省份 <span class="pull-right ft-24 close">&times;</span></dt>
+        <dd data-area="001">上海</dd>
+        <dd data-area="001">其他</dd>
+    </dl>
+
+    <dl class="area city">
+        <dt>请选择 城区<img src="images/icons/icon-area-back.png" class="pull-right select-back city-back"></dt>
+        <dd data-area="012">徐汇区</dd>
+        <dd data-area="013">闵行区</dd>
+        <dd data-area="014">静安区</dd>
+    </dl>
+
+    <dl class="area county">
+        <dt>请选择 城市<img src="images/icons/icon-area-back.png" class="pull-right select-back county-back"></dt>
+        <dd data-area="111">某某某城区</dd>
+        <dd data-area="112">某某某城区</dd>
+        <dd data-area="113">某某某城区</dd>
+        <dd data-area="114">某某某城区</dd>
+    </dl>
+</div>
+
+
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+
+<script>
+    seajs.use(['./js/common/informationController','./js/common/validController'], function (info,valid) {
+        info.selectanywhere();
+        info.setcommonaddress();
+        info.selectaddressarea();
+        valid.insertaddressvalid();
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>商品详情</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/indiv.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/jquery.bxslider.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="banner-area">
+    <ul class="bxslider">
+        <li class="product-img"><a><img class="first" src="images/detail/d1.jpg"></a></li>
+        <li><a><img src="images/detail/d2.jpg"></a></li>
+        <li><a><img src="images/detail/d3.jpg"></a></li>
+    </ul>
+</div>
+<div class="detail-area">
+    <h3>福建黄金柚—1枚/装</h3>
+    <article>
+        柚中含有大量的维生素C，能降低血液中有胆固醇；果胶不仅可降低低密度脂蛋白水平，而且可以减少动脉壁的损坏程度
+    </article>
+    <div class="pure-g">
+        <div class="pure-u-1-2">
+            <p class="goods-price">￥77.00</p>
+            <div class="goods-size">
+                1.9Kg
+            </div>
+        </div>
+        <div class="pure-u-1-2">
+            <div class="padding-top">
+            <div class="number-group">
+                <button class="min">-</button>
+                <input type="text" value="1" disabled>
+                <button class="add">+</button>
+            </div>
+            <!--<button class="addCart cart_btn"></button>-->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="full-width">
+    <img src="images/detail/detail.jpg">
+</div>
+<div class="shopping-cart-line">
+    <a href="shoppingCart.html" class="cart_btn pull-left">
+        <i class="shopping-cart-num">1</i>
+        <img src="images/icons/icon-shopping-active.png">
+    </a>
+    <button class="addCart pull-right">加入购物车</button>
+</div>
+<a href="javascript:;" class="go_back" onclick="history.go(-1);"></a>
+<a href="javascript:;" class="collect"></a>
+<a href="javascript:;" class="sharing"></a>
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/homeController','./js/common/masterController'], function (home,master) {
+        home.bannerslider();
+        home.collectbtn();
+        master.detailAddCart();
+        master.addandmin();
+    })
+</script>
+
+</body>
+</html>

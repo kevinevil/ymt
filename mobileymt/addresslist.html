@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>收货地址</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/information.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/switchery.min.css" type="text/css" rel="stylesheet">
+</head>
+<body class="bg_gray">
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4 ">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            收货地址
+        </li>
+        <li class="pure-u-1-4">
+            <a href="insertaddress.html">
+                <p class="save_info">添加</p>
+            </a>
+        </li>
+    </ul>
+</header>
+<div class="address-list">
+    <ul>
+        <li class="has_allow">
+            <a href="insertaddress.html">
+                <div>
+                    <p class="ft-20">handsome Boy<span class="address-type ft-12">公司</span></p>
+                </div>
+                <div>
+                    <span>上海</span>
+                    <span>上海市</span>
+                    <span>徐汇区</span>
+                </div>
+                <p class="address_info">
+                    青州北路ajsdjaioudadjasiuagasdjaisufafdsuasoiudaadaosjdaisda
+                </p>
+                <p>138****7813</p>
+            </a>
+        </li>
+        <li class="has_allow">
+            <a href="insertaddress.html">
+                <div>
+                    <p class="ft-20">handsome Boy<span class="address-type ft-12">公司</span></p>
+                </div>
+                <div>
+                    <span>上海</span>
+                    <span>上海市</span>
+                    <span>徐汇区</span>
+                </div>
+                <p class="address_info">
+                    青州北路ajsdjaioudadjasiuagasdjaisufafdsuasoiudaadaosjdaisda
+                </p>
+                <p>138****7813</p>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+
+<script>
+    seajs.use(['./js/common/informationController'], function (info) {
+        info.selectanywhere();
+        info.setcommonaddress();
+    })
+</script>
+</body>
+</html>

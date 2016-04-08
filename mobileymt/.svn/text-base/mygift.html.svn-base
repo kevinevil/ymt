@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的增品</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/userinfo.css" type="text/css" rel="stylesheet">
+</head>
+<body class="rush_fruit">
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            我的赠品
+        </li>
+        <li class="pure-u-1-4">
+            <a href="shoppingCart.html" class="cart_btn pull-right">
+                <i class="shopping-cart-num">1</i>
+                <img src="images/icons/shopping-cart-other.png">
+            </a>
+        </li>
+    </ul>
+</header>
+<div class="banner_for_rush pure-g margin-bottom-10">
+    <div class="pure-u-3-4">
+        <input class="gift_code" placeholder="请输入礼品码">
+    </div>
+    <div class="pure-u-1-4">
+        <button class="gift_button">兑换</button>
+    </div>
+</div>
+<div class="padding_bottom">
+    <div class="countdown_goods">
+        <a href="#" class="goods_area pure-g">
+            <div class="pure-u-1-3 photo">
+                <img src="images/goods/product-5.jpg">
+            </div>
+            <div class="pure-u-2-3 goods_info">
+                <p class="title">[赠品]崇明野生鸡蛋</p>
+                <div>
+                    <p class="size">10只装</p>
+                    <span class="count">x2</span>
+                </div>
+                <div class="price">
+                    <span class="new_price">￥88.0</span>
+                </div>
+                <button class="get_it">立即领取</button>
+            </div>
+        </a>
+
+        <div class="validity text-right">
+            有效期:2015-12-08
+        </div>
+    </div>
+    <div class="countdown_goods">
+        <a href="#" class="goods_area pure-g">
+            <div class="pure-u-1-3 photo">
+                <img src="images/goods/product-3.jpg">
+            </div>
+            <div class="pure-u-2-3 goods_info">
+                <p class="title">[赠品]新西兰奇异果</p>
+                <div>
+                    <p class="size">2只装</p>
+                    <span class="count">x2</span>
+                </div>
+                <div class="price">
+                    <span class="new_price">￥8.0</span>
+                </div>
+                <button class="get_it">立即领取</button>
+            </div>
+        </a>
+
+        <div class="validity text-right">
+            有效期:2015-12-30
+        </div>
+    </div>
+    <div class="countdown_goods">
+        <a href="#" class="goods_area pure-g">
+            <div class="pure-u-1-3 photo">
+                <img src="images/goods/product-3.jpg">
+            </div>
+            <div class="pure-u-2-3 goods_info">
+                <p class="title">[赠品]新西兰奇异果</p>
+
+                <div>
+                    <p class="size">2只装</p>
+                    <span class="count">x1</span>
+                </div>
+                <div class="price">
+                    <span class="new_price">￥8.0</span>
+                </div>
+                <button class="get_it">立即领取</button>
+            </div>
+        </a>
+
+        <div class="validity text-right">
+            有效期:2015-12-30
+        </div>
+    </div>
+</div>
+
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/masterController'], function (add) {
+        add.rushgoodsaddcart();
+    })
+</script>
+
+</body>
+</html>

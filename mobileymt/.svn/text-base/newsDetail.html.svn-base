@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>苗圃百科</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/indiv.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            苗圃百科
+        </li>
+        <li class="pure-u-1-4">
+
+        </li>
+    </ul>
+</header>
+<div class="full-width fixed-clear rule">
+
+    <p class="text-left news-detail-title ft-16">
+        水果的“四性”“五味”
+    </p>
+    <p>
+        规则自己定随便定.定好了直接给我就OK。
+        规则自己定随便定.定好了直接给我就OK。
+        规则自己定随便定.定好了直接给我就OK。
+        规则自己定随便定.定好了直接给我就OK。
+        规则自己定随便定.定好了直接给我就OK。
+        规则自己定随便定.定好了直接给我就OK。
+    </p>
+    <img src="images/salads/salad_1.JPG">
+</div>
+</body>
+</html>

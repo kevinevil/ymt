@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>购物车</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/indiv.css" type="text/css" rel="stylesheet">
+    <link href="css/common/information.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/sweetalert.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/custombox.min.css" type="text/css" rel="stylesheet">
+</head>
+<!--空购物车的时候再body上加上empty-->
+<body class="empty">
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            购物车
+        </li>
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="ft-12 delete_all pull-right row-block">
+                <img src="images/icons/delete.png">
+            </a>
+        </li>
+    </ul>
+</header>
+
+
+<div class="shopping-cart-context-area fixed-clear">
+    <ul class="cart-list">
+        <li class="pure-g">
+            <a class="pure-u-1-3">
+                <img src="images/goods/goods_1.png">
+            </a>
+
+            <div class="pure-u-2-3 box-padding">
+                <p class="title">蓝莓</p>
+
+                <p class="goods-size">1.9Kg</p>
+
+                <div class="pure-g padding-top-control">
+                    <p class="goods-price pure-u-1-2">￥29.00</p>
+
+                    <div class="number-group pure-u-1-2">
+                        <button class="min">-</button>
+                        <input type="text" value="1" disabled>
+                        <button class="add">+</button>
+                    </div>
+                </div>
+            </div>
+            <button class="delete"></button>
+        </li>
+        <li class="pure-g">
+            <a class="pure-u-1-3">
+                <img src="images/goods/goods_2.png">
+            </a>
+
+            <div class="pure-u-2-3 box-padding">
+                <p class="title">福建红心蜜柚—1枚/组 </p>
+
+                <p class="goods-size">1枚/组</p>
+
+                <div class="pure-g padding-top-control">
+                    <p class="goods-price pure-u-1-2">￥129.00</p>
+
+                    <div class="number-group pure-u-1-2">
+                        <button class="min">-</button>
+                        <input type="text" value="1" disabled>
+                        <button class="add">+</button>
+                    </div>
+                </div>
+            </div>
+            <button class="delete"></button>
+        </li>
+    </ul>
+    <ul class="replace-event">
+        <li class="title">
+            享受更多优惠-换购活动
+        </li>
+        <li class="has_allow">
+            <a href="replacebuy.html?tag=1">
+                <span class="event-tag">促</span><span>活动换购优惠</span>
+            </a>
+        </li>
+        <li class="has_allow">
+            <a href="replacebuy.html?tag=2">
+                <span class="event-tag">惠</span><span>加价全场购优惠</span>
+            </a>
+        </li>
+        <li class="has_allow">
+            <a href="replacebuy.html?tag=3">
+                <span class="event-tag">满</span><span>满199换购优惠</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div id="modal" class="modal address-list">
+    <div class="address-list-title">
+        请选择收货地址
+    </div>
+    <ul>
+        <li>
+            <a href="insertorder.html">
+                <div>
+                    <p class="ft-20">某某某<span class="address-type ft-12">公司</span></p>
+                </div>
+                <div>
+                    <span>上海</span>
+                    <span>上海市</span>
+                    <span>徐汇区</span>
+                </div>
+                <p class="address_info">
+                    青州北路ajsdjaioudadjasiuagasdjaisufafdsuasoiudaadaosjdaisda
+                </p>
+            </a>
+        </li>
+        <li>
+            <a href="insertorder.html">
+                <div>
+                    <p class="ft-20">某某某<span class="address-type ft-12">家</span></p>
+                </div>
+                <div>
+                    <span>上海</span>
+                    <span>上海市</span>
+                    <span>徐汇区</span>
+                </div>
+                <p class="address_info">
+                    莲花南路3191号XXX小区291时
+                </p>
+            </a>
+        </li>
+        <li>
+            <a href="insertorder.html">
+                <div>
+                    <p class="ft-20">某某某<span class="address-type ft-12">其他</span></p>
+                </div>
+                <div>
+                    <span>上海</span>
+                    <span>上海市</span>
+                    <span>徐汇区</span>
+                </div>
+                <p class="address_info">
+                    青州北路ajsdjaioudadjasiuagasdjaisufafdsuasoiudaadaosjdaisda
+                </p>
+            </a>
+        </li>
+        <li>
+            <a href="insertorder.html">
+                <div>
+                    <p class="ft-20">某某某<span class="address-type ft-12">其他</span></p>
+                </div>
+                <div>
+                    <span>上海</span>
+                    <span>上海市</span>
+                    <span>徐汇区</span>
+                </div>
+                <p class="address_info">
+                    青州北路ajsdjaioudadjasiuagasdjaisufafdsuasoiudaadaosjdaisda
+                </p>
+            </a>
+        </li>
+        <li>
+            <a href="insertorder.html">
+                <div>
+                    <p class="ft-20">某某某<span class="address-type ft-12">其他</span></p>
+                </div>
+                <div>
+                    <span>上海</span>
+                    <span>上海市</span>
+                    <span>徐汇区</span>
+                </div>
+                <p class="address_info">
+                    青州北路ajsdjaioudadjasiuagasdjaisufafdsuasoiudaadaosjdaisda
+                </p>
+            </a>
+        </li>
+        <li>
+            <a class="insert-new-address" href="insertaddress.html?tag=order">
+                添加新地址
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="settle pure-g">
+    <div class="pure-u-1-2">
+        <span class="total-text">￥</span>
+        <span class="total-pay">190</span>
+    </div>
+    <div class="pure-u-1-2">
+        <a href="javascript:;" class="pay pull-right">
+            结算
+        </a>
+    </div>
+</div>
+<nav class="footer-nav">
+    <ul>
+        <li>
+            <a href="index.html">
+                <img src="images/icons/icon-home.png">
+
+                <p>首页</p>
+            </a>
+        </li>
+        <li>
+            <a href="classify.html">
+                <img src="images/icons/icon-kind.png">
+
+                <p>品类</p>
+            </a>
+        </li>
+        <li>
+            <a href="userinfo.html">
+                <img src="images/icons/icon-user.png">
+
+                <p>我的果园</p>
+            </a>
+        </li>
+        <li>
+            <a href="shoppingCart.html" class="cart_btn">
+                <img src="images/icons/icon-shopping-active.png">
+
+                <p>购物车</p>
+            </a>
+        </li>
+        <li>
+            <a href="newsinfo.html">
+                <img src="images/icons/icon-book.png">
+
+                <p>苗圃</p>
+            </a>
+        </li>
+    </ul>
+</nav>
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/selectAddressController', './js/common/masterController', './js/common/orderController'], function (same, master, order) {
+        same.sameheight();
+        same.beforeselectaddress();
+        master.addandmin();
+        master.deletegoods();
+        order.searchTab();
+    })
+</script>
+
+</body>
+</html>

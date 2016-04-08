@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>分类</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/home.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/animate.css" type="text/css" rel="stylesheet">
+</head>
+<body class="one-page">
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4 ">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            分类
+        </li>
+        <li class="pure-u-1-4">
+            <a href="search.html" class="search"></a>
+        </li>
+    </ul>
+</header>
+
+<ul class="product-list-classify pure-g">
+    <li class="pure-u-1-3">
+        <a href="#">
+            <img src="images/classfiy/vegetables.png" alt="有机农庄主产">
+
+            <p class="ft-12">有机农庄主产</p>
+        </a>
+    </li>
+    <li class="pure-u-1-3">
+        <a href="goodslist.html">
+            <img src="images/classfiy/beangoods.png" alt="纯手工豆制品">
+
+            <p class="ft-12">纯手工豆制品</p>
+        </a>
+    </li>
+    <li class="pure-u-1-3">
+        <a href="goodslist.html">
+            <img src="images/classfiy/birdandegg.png" alt="纯手工豆制品">
+
+            <p class="ft-12">地方原生态禽蛋</p>
+        </a>
+    </li>
+    <li class="pure-u-1-3">
+        <a href="goodslist.html">
+            <img src="images/classfiy/fruit.png" alt="全球精选新鲜水果">
+
+            <p class="ft-12">全球精选新鲜水果</p>
+        </a>
+    </li>
+    <li class="pure-u-1-3">
+        <a href="goodslist.html">
+            <img src="images/classfiy/rich.png" alt="原生态五谷杂粮">
+
+            <p class="ft-12">原生态五谷杂粮</p>
+        </a>
+    </li>
+    <li class="pure-u-1-3">
+        <a href="goodslist.html">
+            <img src="images/classfiy/mushroom.png" alt="全球精选鲜菇干菇">
+
+            <p class="ft-12">全球精选鲜菇干菇</p>
+        </a>
+    </li>
+    <li class="pure-u-1-3">
+        <a href="#">
+            <img src="images/classfiy/seafood.png" alt="全球地标海鲜鱼虾">
+
+            <p class="ft-12">全球地标海鲜鱼虾</p>
+        </a>
+    </li>
+    <li class="pure-u-1-3">
+        <a href="goodslist.html">
+            <img src="images/classfiy/meat.png" alt="全球地标红肉">
+
+            <p class="ft-12">全球地标红肉</p>
+        </a>
+    </li>
+    <li class="pure-u-1-3">
+        <a href="goodslist.html">
+            <img src="images/classfiy/water.png" alt="全球精选冲调饮品">
+            <p class="ft-12">全球精选冲调饮品</p>
+        </a>
+    </li>
+    <li class="pure-u-1-3">
+        <a href="goodslist.html">
+            <img src="images/classfiy/oil.png" alt="精选粮油干货调味">
+
+            <p class="ft-12">精选粮油干货调味</p>
+        </a>
+    </li>
+    <li class="pure-u-1-3">
+        <a href="goodslist.html">
+            <img src="images/classfiy/card.png" alt="套餐实物礼包礼卡">
+            <p class="ft-12">套餐实物礼包礼卡</p>
+        </a>
+    </li>
+    <li class="pure-u-1-3">
+        <a href="goodslist.html">
+            <img src="images/classfiy/supplies.png" alt="全球进口日用品">
+
+            <p class="ft-12">全球进口日用品</p>
+        </a>
+    </li>
+</ul>
+
+
+<nav class="footer-nav">
+    <ul>
+        <li>
+            <a href="index.html">
+                <img src="images/icons/icon-home.png">
+
+                <p>首页</p>
+            </a>
+        </li>
+        <li>
+            <a href="classify.html">
+                <img src="images/icons/icon-kind-active.png">
+
+                <p>品类</p>
+            </a>
+        </li>
+        <li>
+            <a href="userinfo.html">
+                <img src="images/icons/icon-user.png">
+
+                <p>我的果园</p>
+            </a>
+        </li>
+        <li>
+            <a href="shoppingCart.html">
+                <img src="images/icons/icon-shopping.png">
+
+                <p>购物车</p>
+            </a>
+        </li>
+        <li>
+            <a href="newsinfo.html">
+                <img src="images/icons/icon-book.png">
+
+                <p>苗圃</p>
+            </a>
+        </li>
+    </ul>
+</nav>
+</body>
+</html>

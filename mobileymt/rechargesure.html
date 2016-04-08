@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>确认充值</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/form.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/sweetalert.css" type="text/css" rel="stylesheet">
+</head>
+<body class="bg_gray">
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            <form class="search-form">
+                充值确认
+            </form>
+        </li>
+        <li class="pure-u-1-4">
+
+        </li>
+    </ul>
+</header>
+
+<div class="recharge_sure">
+    <div class="one_area bg_white">
+        <span>充值金额</span><span class="orange">￥1</span>
+    </div>
+    <div class="one_area font-gray">
+        <span>支付方式</span>
+    </div>
+    <ul class="pay_type">
+        <li class="active">
+            支付宝
+        </li>
+        <li>
+            微信
+        </li>
+        <li>
+            招商银行专享网银支付
+        </li>
+        <li>
+            通联网银支付
+        </li>
+    </ul>
+</div>
+
+<div class="confirm-area bg_white">
+    <span class="pull-left orange">￥1</span>
+    <button class="pay-it pull-right">立即支付</button>
+</div>
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/searchController'], function (sure) {
+        sure.surepaytype();
+        sure.rechange();
+    })
+</script>
+</body>
+</html>

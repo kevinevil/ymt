@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>色拉客 - 优惠券</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/ticket.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/animate.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            色拉客 - 优惠券
+        </li>
+        <li class="pure-u-1-4">
+
+        </li>
+    </ul>
+</header>
+
+<div class="coupon-list">
+    <div class="single-coupon wow fadeInUp" data-wow-duration="1s">
+        <a href="goodsdetail.html" class="ticket-link pure-g">
+            <div class="pure-u-1-3 money">
+                <span><i class="ft-24">￥</i>20</span>
+            </div>
+            <div class="pure-u-2-3 coupon-content">
+                <div class="row-block">
+                    <span class="pull-left">有效期至</span>
+                    <span class="pull-right">2017-12-18</span>
+                </div>
+                <div class="usage">仅限泰国龙眼使用</div>
+            </div>
+        </a>
+    </div>
+    <div class="single-coupon wow fadeInUp" data-wow-duration="1s" data-wow-delay="500ms">
+        <a href="javascript:;" class="ticket-link pure-g gray">
+            <div class="pure-u-1-3 money">
+                <span><i class="ft-24">￥</i>8</span>
+            </div>
+            <div class="pure-u-2-3 coupon-content">
+                <div class="row-block">
+                    <span class="pull-left">有效期至</span>
+                    <span class="pull-right drop-gray">已过期</span>
+                </div>
+                <div class="usage">仅限福建黄金柚使用</div>
+            </div>
+        </a>
+    </div>
+    <!--<div class="single-coupon wow fadeInUp" data-wow-duration="1s" data-wow-delay="600ms">-->
+
+    <!--</div>-->
+    <!--<div class="single-coupon wow fadeInUp" data-wow-duration="1s" data-wow-delay="900ms">-->
+
+    <!--</div>-->
+    <!--<div class="single-coupon wow fadeInUp" data-wow-duration="1s" data-wow-delay="1200ms">-->
+
+    <!--</div>-->
+</div>
+
+
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script src="js/lib/wow.min.js"></script>
+<script>
+    wow = new WOW({
+        boxClass: 'wow',
+        offset: '3',
+        mobile: true
+    })
+    wow.init();
+</script>
+<script>
+    seajs.use(['./js/common/homeController'], function (home) {
+
+    })
+</script>
+
+</body>
+</html>

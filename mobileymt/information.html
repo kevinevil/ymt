@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>个人信息</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/custombox.min.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/sweetalert.css" type="text/css" rel="stylesheet">
+    <link href="css/common/information.css" type="text/css" rel="stylesheet">
+
+</head>
+<body class="bg_gray">
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4 ">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            个人信息
+        </li>
+        <li class="pure-u-1-4">
+            <p class="save_info">保存</p>
+        </li>
+    </ul>
+</header>
+<div class="pure-g info_area">
+    <form>
+        <ul>
+            <li>
+                <a href="javascript:;" class="select-images">
+                    <label class="line-height-50">头像</label>
+                    <img src="images/icons/header.png" class="header">
+                    <input type="file" id="files" class="hidden">
+                </a>
+            </li>
+            <li>
+                <label>昵称</label>
+                <input class="text-right" type="text" placeholder="请设置你的昵称">
+            </li>
+            <li class="has_allow">
+                <a href="memberlevel.html">
+                    <label>会员等级</label>
+
+                    <div class="vip_level pull-right">
+                        V<span class="ft-12">0</span>
+                    </div>
+                </a>
+            </li>
+            <li class="has_allow">
+                <a href="javascript:;" class="select_anywhere">
+                    <label>性别</label>
+                    <span class="pull-right gray sex-span">保密</span>
+                    <input type="hidden" value="" id="sex">
+                </a>
+            </li>
+            <li class="has_allow">
+                <a href="javascript:;">
+                    <label>生日</label>
+                    <input class="text-right" type="text" placeholder="请输入生日(如2015/11/11)">
+                </a>
+            </li>
+            <li class="has_allow">
+                <a href="addresslist.html">
+                    <label>地址管理</label>
+                </a>
+            </li>
+            <li class="has_allow no_border">
+                <a href="myfollow.html">
+                    <label>我的关注</label>
+                </a>
+            </li>
+        </ul>
+    </form>
+    <ul>
+        <li class="has_allow">
+            <label>绑定手机</label>
+            <span class="pull-right gray">已绑定</span>
+        </li>
+        <li class="has_allow no_border">
+            <a href="saladforcompany.html">
+                <label>企业合作</label>
+                <span class="pull-right gray">未绑定</span>
+            </a>
+        </li>
+    </ul>
+    <ul>
+        <li class="no_border">
+            <a href="javascript:;" class="text-center red">
+                注销账户
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+<div class="modal" id="modal">
+    <div class="select-sex">
+        <p class="title">请选择你的性别</p>
+        <ul class="sex">
+            <li class="closed">保密</li>
+            <li class="closed">男</li>
+            <li class="closed">女</li>
+        </ul>
+    </div>
+</div>
+
+
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+
+<script>
+    seajs.use(['./js/common/informationController'], function (info) {
+        info.userselector();
+    })
+</script>
+</body>
+</html>

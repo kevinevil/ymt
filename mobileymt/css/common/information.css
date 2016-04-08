@@ -1,0 +1,662 @@
+.info_area {
+    letter-spacing: normal !important;
+    padding-top: 52px;
+    padding-bottom: 50px;
+    font-size: 12px;
+}
+
+.info_area.orderlist {
+    padding-top: 95px;
+}
+
+.info_area ul {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #C9C9C9;
+    border-bottom: 1px solid #C9C9C9;
+    margin-bottom: -1px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.info_area ul li {
+    display: table;
+    width: 90% !important;
+    margin: 0 auto;
+    border-bottom: 1px solid #D7D7D7;
+    padding: 7px 20px 7px 0px !important;
+    line-height: 35px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.info_area .hidden {
+    display: none;
+}
+
+.info_area ul li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.info_area ul li label {
+    float: left;
+    width: 34%;
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
+    height: 35px;
+}
+
+.info_area ul li label.line-height-50 {
+    line-height: 50px;
+}
+
+.info_area ul li .red {
+    color: #E6391D;
+}
+
+.info_area ul li .green {
+    color: #599c3b;
+}
+
+.orange {
+    color: #FD9005;
+}
+
+ul li.has_allow {
+    background: url("/moblieymt/images/icons/icon_allow_right.png") right center no-repeat;
+    background-size: 10px;
+}
+
+ul li.has_allow span.pull-right {
+    display: table-cell;
+    max-width: 63%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.info_area .ticket-num {
+    font-size: 12px;
+    vertical-align: bottom;
+}
+
+.info_area ul li.no_border {
+    border: none;
+}
+
+.info_area ul li .gray {
+    color: #A9A9A9;
+}
+
+.info_area .vip_level {
+    height: 35px;
+    width: 35px;
+    background-color: #599c3b;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.vip_level .small {
+    font-size: 12px;
+}
+
+.info_area ul li input {
+    float: right;
+    display: table-cell;
+    height: 32px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    width: 60%;
+    font-weight: bolder;
+    text-align: right !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.info_area ul li img.header {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: right;
+}
+
+.info_area .switchery.switchery-default {
+    float: right;
+}
+
+/*地址列表*/
+
+.address-list {
+    padding-top: 46px;
+    font-family: sans-serif;
+}
+
+.address-list ul {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.address-list ul li {
+    padding: 10px 0px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.address-list .address-type {
+    border: 1px solid #599c3b;
+    border-radius: 18px;
+    padding: 0px 10px;
+    display: inline-block;
+    color: #599c3b;
+    vertical-align: middle;
+    margin-left: 10px;
+    line-height: 18px;
+    height: 18px;
+}
+
+.address-list p.address_info {
+    max-width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.delete-this-btn {
+    width: 100%;
+    border: none;
+    outline: none;
+    line-height: 30px;
+    background-color: #fff;
+    border-top: 1px solid #D7D7D7;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.address-list li.check-default {
+    background: url("/moblieymt/images/icons/icon_check.png") left center no-repeat;
+    background-size: 22px;
+    box-sizing: border-box;
+    padding-left: 32px;
+}
+
+/*弹出选择框样式*/
+.modal.address-list{
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.address-list .address-list-title{
+    padding: 5px 10px 5px 10px;
+    /* line-height: 20px; */
+    border: 1px solid #eee;
+}
+
+.address-list .insert-new-address{
+    display: block;
+}
+
+.modal {
+    display: none;
+    box-sizing: border-box;
+    width: 280px !important;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: left;
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.modal .title {
+    border-bottom: 3px solid #599c3b;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #599c3b;
+    text-indent: 1em;
+}
+
+.modal ul li {
+    padding: 10px;
+    border-bottom: 1px solid #cacaca;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+/*确认订单*/
+ul.spear-goods li {
+    padding: 7px 0px !important;
+}
+
+.insert_goods {
+    display: table;
+    box-sizing: border-box;
+}
+
+.insert_goods .pure-u-1-3, .insert_goods .pure-u-2-3 {
+    display: table-cell;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.insert_goods .pure-u-1-3.photo {
+    box-sizing: border-box;
+    padding: 0px 7px;
+}
+
+.insert_goods .pure-u-1-3.photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.insert_goods .title {
+    line-height: 28px;
+}
+
+.insert_goods span.size {
+    display: inline-block;
+    border: 1px solid #45a635;
+    border-radius: 4px;
+    color: #45a635;
+    padding: 0px 5px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.insert_goods span.count {
+    vertical-align: middle;
+    color: #919191;
+    font-size: 16px;
+    float: right;
+}
+
+.insert_goods .orange.price {
+    color: #FD9005;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.info_area .address-area div {
+    line-height: 22px;
+    color: #585858;
+    font-size: 14px;
+}
+
+.info_area .address-area-info {
+    margin: 5px auto;
+}
+
+.address-area .name {
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.address-area .address-type {
+    border: 1px solid #599c3b;
+    border-radius: 18px;
+    padding: 0px 10px;
+    display: inline-block;
+    color: #599c3b;
+    vertical-align: middle;
+    margin-left: 10px;
+    line-height: 18px;
+    height: 18px;
+    font-size: 12px;
+}
+
+.confirm-area {
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 45px;
+    line-height: 30px;
+    padding: 10px;
+    box-shadow: 3px 3px 20px 8px #cacaca;
+    z-index: 9999;
+}
+
+.confirm-area .pay-it {
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #FD9005;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 35px;
+    width: 100px;
+}
+
+.order_state {
+    position: fixed;
+    top: 46px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #C9C9C9;
+    font-size: 12px;
+}
+
+.order_state .same-width, .operate-btn-group .same-width {
+    width: 90%;
+    margin: 0 auto;
+    /* padding: 13px; */
+    font-size: 12px !important;
+    line-height: 40px;
+}
+
+.order_state .gray {
+    color: #A9A9A9;
+}
+
+.order_state span{
+    font-size: 12px !important;
+}
+
+.operate-btn-group {
+    position: fixed;
+    bottom: 0px;
+    background-color: #ffffff;
+    padding: 10px 0px;
+    border-top: 1px solid #C9C9C9;
+}
+
+.operate-btn-group button {
+    width: 90%;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    outline: none;
+    font-size: 14px;
+}
+
+.operate-btn-group button.cancel {
+    background-color: #fff;
+    border: 1px solid #599c3b;
+    color: #599c3b;
+}
+
+.operate-btn-group button.quick-pay {
+    background-color: #FD9005;
+    border: 1px solid #FD9005;
+    color: #ffffff;
+}
+
+/*苗圃 start*/
+
+.news-info .search_news_area {
+    padding: 16px 10px;
+    margin: 0 auto;
+}
+
+.search_news_area .news_info_search {
+    background-color: #eeeeee;
+    padding: 3px 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.news-links {
+    padding-top: 10px;
+}
+
+.news-links a {
+    font-size: 12px;
+    border: 1px solid #F9F9F9;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    background-color: #ffffff;
+    color: #999999;
+}
+
+.news-links a img {
+    display: block;
+    width: 40%;
+    height: auto;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.news-title {
+    box-sizing: border-box;
+    padding: 5px 40px;
+    background: url("/moblieymt/images/icons/icon-book-active.png") 10px center no-repeat;
+    background-size: 20px;
+    color: #599c3b;
+    font-family: 'hei';
+    vertical-align: middle;
+}
+
+.news-info-list{
+    padding-bottom: 48px;
+}
+
+.news-info-list a {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+    background-color: #ffffff;
+}
+
+.news-info-list .pure-u-1-4 img {
+    width: 100%;
+    height: auto;
+}
+
+.news-info-list .pure-u-3-4 {
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.news-info-list .pure-u-3-4 .news-info-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+
+.news-info-title .title-kind {
+    background-color: #F97469;
+    display: inline-block;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 0px 3px;
+    font-size: 12px !important;
+    margin-right: 5px;
+    vertical-align: top;
+    margin-top: 3px;
+}
+
+.news-info-list a .pure-u-3-4 .info, .news-article .info {
+    font-size: 0.9em;
+    color: #AFAFAF;
+    height: 2.8em;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.news-info-list a .pure-u-3-4 .info:after {
+    content: "...";
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 1.2em;
+}
+
+.garden-scroll {
+    overflow: scroll;
+    border-bottom: 1px solid #CCC;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.garden-links {
+    width: auto;
+    width: 115%;
+    display: block;
+    -webkit-overflow-scrolling: touch;
+    overflow: scroll;
+    white-space: nowrap;
+    /* padding-top: 50px !important; */
+    z-index: 999;
+}
+
+@media (max-width: 350px) {
+    .garden-links {
+        width: auto;
+        width: 130%;
+        display: block;
+        -webkit-overflow-scrolling: touch;
+        overflow: scroll;
+        white-space: nowrap;
+    }
+}
+
+ul.garden-links li {
+    display: block;
+    float: left;
+}
+
+.garden-links a {
+    display: inline-block;
+    color: #AFAFAF;
+    box-sizing: border-box;
+    padding: 10px 11px 5px 11px;
+    float: left;
+}
+
+.garden-links a.active {
+    border-bottom: 2px solid #45a635;
+    color: #45a635;
+}
+
+.news-single-info {
+    padding: 15px;
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+
+.news-single-info .news-article img {
+    width: 100%;
+}
+
+.news-article .news-info-title {
+    margin-bottom: 5px;
+    font-size: 16px !important;
+}
+
+/*苗圃 end*/
+
+/*订单跟踪信息 start*/
+ul.addressfollow {
+    display: block;
+    overflow: hidden;
+    width: 95%;
+    margin: 0 auto;
+}
+
+ul.addressfollow li {
+    display: block;
+    padding: 10px 0px 10px 10px;
+    border-bottom: 1px solid #DDDDDD;
+    color: #666666;
+}
+
+/*订单跟踪信息 end*/
+
+/*地址新增区域选择 start*/
+#address-area {
+    height: 400px;
+    overflow-y: auto;
+}
+
+#address-area dl {
+    box-sizing: border-box;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#address-area dt {
+    width: 100%;
+    font-size: 1em;
+    font-weight: normal;
+    padding: 0 0 10px;
+    font-family: 'microsoft yahei';
+    color: #323232;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+#address-area dd {
+    padding: 7px 5px;
+    line-height: 20px;
+    border-bottom: 1px dashed #f1f1f1;
+}
+
+#address-area .city, #address-area .county {
+    display: none;
+}
+
+.area .close {
+    vertical-align: top;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.area .select-back {
+    height: 20px;
+    width: auto;
+    display: inline-block;
+}
+
+.info_area .insert-address-error {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F2DEDF;
+}
+
+.info_area .insert-address-error .error {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    line-height: 30px;
+    color: #8A4A53;
+}
+
+.loadmore.likebtn{
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 5px;
+    background-color: #FD9005;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+}
+
+
+/*地址新增区域选择 end*/
+
+
+
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的特权</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/ticket.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/animate.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            我的特权
+        </li>
+        <li class="pure-u-1-4">
+            <a href="memberlevelrule.html" class="powerrule ft-12">等级规则</a>
+        </li>
+    </ul>
+</header>
+
+<div class="coupon-list">
+    <!--特权优惠券领取-->
+    <div class="single-coupon special-level wow bounceInDown" data-wow-duration="1.5s">
+        <img class="auto_ticket_img" src="images/banner/specialpower.jpg">
+        <p class="package-name">A套餐会员</p>
+        <p class="package-pirce">会员单价:<span>10元/份</span></p>
+    </div>
+    <div class="single-coupon special-level wow bounceInDown" data-wow-duration="1s">
+        <img class="auto_ticket_img" src="images/banner/invfriend.jpg">
+    </div>
+    <!--<div class="single-coupon wow fadeInUp" data-wow-duration="1s" data-wow-delay="600ms">-->
+
+    <!--</div>-->
+    <!--<div class="single-coupon wow fadeInUp" data-wow-duration="1s" data-wow-delay="900ms">-->
+
+    <!--</div>-->
+    <!--<div class="single-coupon wow fadeInUp" data-wow-duration="1s" data-wow-delay="1200ms">-->
+
+    <!--</div>-->
+</div>
+
+
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script src="js/lib/wow.min.js"></script>
+<script>
+    wow = new WOW({
+        boxClass: 'wow',
+        offset: '3',
+        mobile: true
+    })
+    wow.init();
+</script>
+<script>
+    seajs.use(['./js/common/homeController'], function (home) {
+
+    })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>提货券管理</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/ticket.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/animate.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            提货券管理
+        </li>
+        <li class="pure-u-1-4">
+            <a href="pickuprule.html" class="ft-12">提货规则</a>
+        </li>
+    </ul>
+</header>
+
+<div class="coupon-list">
+    <div class="pickup-coupon wow fadeInUp" data-wow-duration="1s">
+        <div class="pure-g">
+            <a href="javascript:;" class="pure-u-3-4">
+                <p class="pick-title">红肉专场</p>
+                <p class="pickup-status"><label>卡号</label><span>ceshi0123456789</span><span class="pull-right">已绑定</span></p>
+            </a>
+            <a href="pickupgoods.html" class="pure-u-1-4">
+
+            </a>
+        </div>
+    </div>
+    <div class="pickup-coupon not-use wow fadeInUp" data-wow-duration="1s" data-wow-delay="500ms">
+        <div class="pure-g">
+            <a href="javascript:;" class="pure-u-3-4">
+                <p class="pick-title">红肉专场</p>
+                <p class="pickup-status"><label>卡号</label><span>ceshi0123456789</span><span class="pull-right">已绑定</span></p>
+            </a>
+            <a href="pickupgoods.html" class="pure-u-1-4">
+
+            </a>
+        </div>
+    </div>
+    <!--<div class="single-coupon wow fadeInUp" data-wow-duration="1s" data-wow-delay="600ms">-->
+
+    <!--</div>-->
+    <!--<div class="single-coupon wow fadeInUp" data-wow-duration="1s" data-wow-delay="900ms">-->
+
+    <!--</div>-->
+    <!--<div class="single-coupon wow fadeInUp" data-wow-duration="1s" data-wow-delay="1200ms">-->
+
+    <!--</div>-->
+</div>
+
+
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script src="js/lib/wow.min.js"></script>
+<script>
+    wow = new WOW({
+        boxClass: 'wow',
+        offset: '3',
+        mobile: true
+    })
+    wow.init();
+</script>
+<script>
+    seajs.use(['./js/common/homeController'], function (home) {
+
+    })
+</script>
+
+</body>
+</html>

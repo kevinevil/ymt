@@ -1,0 +1,639 @@
+/*我的菜园*/
+.user_info {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.user_info div.base_info {
+    position: relative;
+    height: 40%;
+    background: url("/moblieymt/images/userinfo_bg.jpg") center top no-repeat #d6e5d1;
+    background-size: cover;
+    display: table;
+}
+
+.user_info div.head_portrait_area {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+
+.user_info div.head_portrait_area .head_portrait {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.user_info div.head_portrait_area .arrow-right {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 7px;
+    border-color: transparent transparent transparent #696866;
+    position: absolute;
+    top: 46%;
+    left: 66.5%;
+}
+
+.user_info .account_name {
+    position: absolute;
+    top: 74%;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.user_info a.setting {
+    position: absolute;
+    display: block;
+    border: none;
+    outline: none;
+    width: 20px;
+    height: 20px;
+    background: url("/moblieymt/images/icons/icon_setting.png") center center no-repeat;
+    top: 15px;
+    right: 15px;
+    background-size: cover;
+    z-index: 999;
+}
+
+.user_member_info ul.info_scores {
+    width: 100%;
+    display: block;
+}
+
+.user_member_info a {
+    text-decoration: none;
+    color: #000;
+}
+
+.user_info .user_member_info {
+    box-sizing: border-box;
+    height: 9%;
+    /* overflow: hidden; */
+    background-color: #d6e5d1;
+    text-align: center;
+    font-size: 14px;
+}
+
+.user_info .user_member_info .mark_area {
+    border-right: 1px solid #808080;
+    box-sizing: border-box;
+}
+
+.user_info .user_member_info .green {
+    color: #4CA044;
+    font-weight: bolder;
+}
+
+.user_info .base_link {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.user_info .base_link img {
+    display: block;
+    width: 45%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.user_info div.base_link a.sub_link {
+    display: inline-block;
+    padding: 23px 0px;
+    box-sizing: border-box;
+    color: #000000;
+    text-decoration: none;
+    width: 33.2%;
+}
+
+@media screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+    .user_info div.base_link a.sub_link {
+        display: inline-block;
+        padding: 36px 0px;
+        box-sizing: border-box;
+        color: #000000;
+        text-decoration: none;
+        width: 33.2%;
+    }
+}
+
+.user_info .sub_link {
+    border-left: 1px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+}
+
+.user_info .sub_link img {
+    animation-duration: 0.7s;
+    animation-iteration-count: 2;
+    animation-name: tada;
+}
+
+.user_info .sub_link.link_double_border img {
+    animation-duration: 0.7s;
+    animation-iteration-count: 3;
+    animation-name: pulse;
+}
+
+/*抢鲜 rushfruit and 我的赠品 mygift*/
+
+body.rush_fruit {
+    background-color: #f7f7f7;
+}
+
+.banner_for_rush {
+    margin-top: 46px;
+    background-color: #ffffff;
+    /* margin-bottom: 10px; */
+}
+
+.banner_for_rush img {
+    width: 100%;
+    height: 100%;
+}
+
+.countdown_time {
+    width: 100%;
+    height: 20px;
+    font-size: 13px;
+}
+
+.countdown_time label {
+    text-indent: 1em;
+}
+
+.countdown_time.green {
+    background-color: #599c3b;
+    color: #ffffff;
+    padding: 5px 0px;
+}
+
+.countdown_time.blue {
+    background-color: #91C2FC;
+    color: #ffffff;
+    padding: 5px 0px;
+}
+
+.countdown_time.gray {
+    background-color: #e1e1e1;
+    color: #ffffff;
+    padding: 5px 0px;
+}
+
+.countdown_time .clock span {
+    display: inline-block;
+    padding: 0px 3px;
+    margin: 0px 3px;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+.countdown_time.green .clock span {
+    color: #599c3b;
+}
+
+.countdown_time.blue .clock span {
+    color: #91C2FC;
+}
+
+.countdown_time.gray .clock span {
+    color: #666666;
+}
+
+.taste_history {
+    margin-top: 46px;
+}
+
+.countdown_goods {
+    margin-bottom: 10px;
+    background-color: #fff;
+    position: relative;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.countdown_goods .goods_area div, .countdown_goods .goods_area a {
+}
+
+.countdown_goods .goods_area {
+    padding: 7px 0px;
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+
+.countdown_goods .goods_area .photo {
+    box-sizing: border-box;
+    padding: 0px 7px;
+}
+
+.countdown_goods .photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.countdown_goods .goods_info {
+    position: relative;
+    height: auto;
+    padding-top: 5px;
+}
+
+.goods_info span.orange {
+    color: #FD9005;
+    margin-right: 5px;
+}
+
+.price span.taste_state.orange {
+    margin-right: 10px;
+}
+
+.goods_info p.size {
+    display: inline-block;
+    border: 1px solid #45a635;
+    border-radius: 4px;
+    color: #45a635;
+    padding: 0px 5px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.goods_info span.count {
+    vertical-align: middle;
+    color: #919191;
+    font-size: 12px;
+}
+
+.goods_info .price {
+    vertical-align: bottom;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.goods_info .price .no-follow {
+    border: 1px solid #FD9005;
+    border-radius: 5px;
+    outline: none;
+    color: #FD9005;
+    padding: 3px 5px;
+    background-color: #ffffff;
+    margin-bottom: 2px;
+}
+
+.goods_info .price .old_price {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #666666;
+}
+
+.countdown_goods .rush_end {
+    opacity: 0.4;
+}
+
+.goods_info .price .new_price {
+    font-size: 20px;
+    color: #FD9005;
+    font-weight: bolder;
+}
+
+.goods_info button.addCart {
+    position: absolute;
+    bottom: -5px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 1;
+    outline: none;
+    border: none;
+    background: url("/moblieymt/images/icons/shopping-cart.png") center center no-repeat #cde1c4;
+    background-size: contain;
+}
+
+.goods_info a.like_addCart {
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 1;
+    outline: none;
+    border: none;
+    background: url("/moblieymt/images/icons/shopping-cart.png") center center no-repeat #cde1c4;
+    background-size: contain;
+}
+
+.goods_info button.addCart.not_click {
+    background-color: #f2f2f2;
+}
+
+.goods_info .finish_end {
+    transform: rotate(-20deg);
+    display: inline-block;
+    position: absolute;
+    bottom: 13px;
+    right: 17px;
+    padding: 5px;
+    width: 55px;
+    height: 55px;
+    border: 2px dotted #666666;
+    font-size: 12px;
+    line-height: 45px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+.goods_info .title .text-spel{
+    display: inline-block;
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.rush_fruit a.cart_btn {
+    display: block;
+    height: 45px;
+    margin-right: 20px;
+}
+
+.rush_fruit .cart_btn img {
+    height: 60%;
+}
+
+.rush_fruit .gift_code {
+    border: none;
+    outline: none;
+    width: 92%;
+    margin: 5px auto;
+    height: 25px;
+    font-size: 16px;
+    display: block;
+}
+
+.rush_fruit .gift_button {
+    display: block;
+    height: 25px;
+    margin: 5px auto;
+    border: none;
+    outline: none;
+    width: 80%;
+    border-radius: 25px;
+    background-color: #FD9840;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.countdown_goods .validity {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #666666;
+    border-top: 1px dashed #D9D9D9;
+}
+
+.countdown_goods .estimate p{
+    padding: 2px 7px;
+    color: #808080;
+}
+
+.goods_area .get_it {
+    border: none;
+    outline: none;
+    border: 1px solid #FD9005;
+    background-color: #ffffff;
+    color: #FD9005;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px;
+    position: absolute;
+    bottom: 3px;
+    right: 7px;
+    z-index: 999;
+}
+
+.member_level {
+    height: 100%;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+/*member_level start*/
+.member_level .level_above {
+    position: relative;
+    height: 35%;
+    background: url("/moblieymt/images/icons/level_bg_above.jpg") bottom center no-repeat #ffffff;
+    background-size: 100%;
+}
+
+.level_above .level_start_area {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 50%;
+}
+
+.level_above .level_start_area .start_list {
+    width: 55%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.level_start_area .start_list ul {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+
+.level_start_area .start_list ul li{
+    width: 20%;
+    display: block;
+    height: 100%;
+    float: left;
+    background: url("/moblieymt/images/icons/level_start_gray.png") center center no-repeat;
+    background-size: 75%;
+}
+
+.level_start_area .start_list ul li.first{
+    background-position: center 60%;
+}
+
+.level_start_area .start_list ul li.second{
+    background-position: center 37%;
+}
+
+.level_start_area .start_list ul li.center{
+    background-position: center 30%;
+}
+
+.level_start_area .start_list ul li.active{
+    background-image: url("/moblieymt/images/icons/level_start_orange.png");
+}
+
+.level_above .level_num {
+    font-size: 9rem;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    margin-left: -12%;
+    line-height: 80%;
+    color: #ffdf73;
+    text-shadow: 3px 2px 0px #F7CB4A;
+    z-index: 99;
+}
+
+.level_above .level_v {
+    font-size: 4rem;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 8px;
+    left: 20%;
+    line-height: 80%;
+    color: #ffdf73;
+    text-shadow: 3px 2px 0px #F7CB4A;
+}
+
+@media (min-width: 350px) {
+    .level_above .level_num {
+        font-size: 9rem;
+        font-weight: bolder;
+        position: absolute;
+        bottom: 3px;
+        left: 50%;
+        margin-left: -10%;
+        line-height: 80%;
+        color: #ffdf73;
+        text-shadow: 3px 2px 0px #F7CB4A;
+        z-index: 99;
+    }
+
+    .level_above .level_v {
+        font-size: 4rem;
+        font-weight: bolder;
+        position: absolute;
+        bottom: 8px;
+        left: 25%;
+        line-height: 80%;
+        color: #ffdf73;
+        text-shadow: 3px 2px 0px #F7CB4A;
+    }
+}
+
+@media (min-width: 400px) {
+    .level_above .level_num {
+        font-size: 9rem;
+        font-weight: bolder;
+        position: absolute;
+        bottom: 4px;
+        left: 50%;
+        margin-left: -8.5%;
+        line-height: 80%;
+        z-index: 99;
+    }
+
+    .level_above .level_v {
+        font-size: 4rem;
+        font-weight: bolder;
+        position: absolute;
+        bottom: 8px;
+        left: 28%;
+        line-height: 80%;
+        color: #ffdf73;
+        text-shadow: 3px 2px 0px #F7CB4A;
+    }
+
+}
+
+@media (min-width: 450px) {
+    .level_above .level_num {
+        font-size: 9rem;
+        font-weight: bolder;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        margin-left: -6%;
+        line-height: 80%;
+        z-index: 99;
+    }
+}
+
+.level_down .level_bubble {
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background: url("/moblieymt/images/icons/bubble_bg.png") center center no-repeat #5dd6d6;
+    background-size: 100% 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.member_level .level_down {
+    position: relative;
+    height: 65%;
+    background: url("/moblieymt/images/icons/level_bg_down.jpg") top center no-repeat #5dd6d6;
+    background-size: 100%;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.level_down .bottom_area {
+    position: absolute;
+    bottom: 14%;
+}
+
+.level_down .p-top {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    background: url("/moblieymt/images/icons/bubble_line.png") center bottom no-repeat #5dd6d6;
+    background-size: 110px;
+}
+
+.goods_info .title button {
+    padding: 0px;
+    background-color: #fff;
+    display: inline-block;
+    float: right;
+    width: 26px;
+    height: 26px;
+    border: 1px #d5d7d5 solid;
+    outline: none;
+    color: #231815;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+.goods_info .title input{
+    font-weight: bolder;
+    padding: 0px;
+    /* background-color: #e9ede8; */
+    display: inline-block;
+    float: right;
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+    color: #231815;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.goods_info .title button.add{
+    margin-right: 15px;
+
+}
+/*member_level end*/

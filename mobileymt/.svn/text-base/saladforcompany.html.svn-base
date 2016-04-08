@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>企业合作 - 色拉客</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/salad.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            色拉客 - 企业合作
+        </li>
+        <li class="pure-u-1-4">
+
+        </li>
+    </ul>
+</header>
+<div class="fixed-clear row-block forcompany">
+    <div class="row-block text-center ft-12 top-text">
+        请填写下列信息,我们工作人员会尽快与您联系
+    </div>
+    <form id="for_company">
+        <div class="has_bottom_border">
+            <div class="form-controller row-block">
+                <input type="text" class="text_cont" id="company_name" placeholder="贵公司名称">
+            </div>
+            <div class="form-controller row-block">
+                <input type="text" class="text_cont" id="user_name" placeholder="您的姓名">
+            </div>
+            <div class="form-controller row-block">
+                <input type="text" class="text_cont" id="contact_type" placeholder="您的联系方式">
+            </div>
+            <div class="form-controller row-block">
+                <input type="text" class="text_cont none_border" placeholder="合作意向">
+            </div>
+        </div>
+        <div class="form-controller row-block">
+            <input type="submit" class="btn_submit pull-right" value="提交">
+        </div>
+    </form>
+    <div class="intov">
+        <img src="images/rule/saladforcompany.jpg">
+    </div>
+</div>
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+
+<script>
+    seajs.use(['./js/common/saladController.js'], function (salad) {
+        salad.validforCompany();
+    })
+</script>
+</body>
+</html>

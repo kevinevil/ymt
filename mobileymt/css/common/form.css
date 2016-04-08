@@ -1,0 +1,628 @@
+/*登入注册 start*/
+.signIn .logo {
+    padding: 45px 0px;
+}
+
+.signIn .logo img {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: 46px auto 0px auto;
+}
+
+.user-form {
+    text-align: center;
+    font-family: "Simsun", "宋体";
+}
+
+form.sign-in {
+    padding-right: 16px;
+}
+
+.user-form label {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+label.username {
+    background: url("/moblieymt/images/icons/icon_form_login.png") -4px 2px no-repeat;
+    background-size: 30px;
+    vertical-align: middle;
+}
+
+label.password {
+    background: url("/moblieymt/images/icons/icon_form_login.png") -4px -90px no-repeat;
+    background-size: 30px;
+    vertical-align: middle;
+}
+
+label.verifyCode {
+    background: url("/moblieymt/images/icons/icon_form_login.png") 0px -45px no-repeat;
+    background-size: 30px;
+    vertical-align: middle;
+    width: 30px;
+}
+
+.green {
+    font-size: 12px;
+    color: #45a635;
+    margin-top: 10px;
+    text-indent: 15px;
+}
+
+.user-form .hidden {
+    display: none;
+}
+
+.user-form .submit {
+    background-color: #45a635;
+    color: #ffffff;
+    height: 26px;
+    line-height: 17px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.user-form .getCode {
+    border: 1px #45a635 solid;
+    color: #45a635;
+    height: 26px;
+    line-height: 17px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.user-form .getCode.gray {
+    color: #cacaca;
+    border: 1px #cacaca solid;
+}
+
+.user-form input {
+    height: 25px;
+    border: none;
+    outline: none;
+    line-height: 30px;
+    margin-bottom: 8px;
+    width: 150px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.user-form button {
+    height: 25px;
+    border: none;
+    outline: none;
+    line-height: 30px;
+    margin-bottom: 8px;
+    width: 175px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 0px;
+    margin-left: 17px;
+}
+
+.user-form input {
+    border-bottom: 1px #615d5d solid;
+}
+
+.third-login {
+    text-align: center;
+    font-family: "Simsun", "宋体";
+    font-size: 14px;
+    color: #837c7b;
+    width: 100%;
+    position: fixed;
+    bottom: 15px;
+}
+
+.third-login span {
+    margin-left: -15px;
+    margin-right: 5px;
+}
+
+.third-login a {
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url("/moblieymt/images/icons/icon_login.png");
+    background-size: 126px;
+}
+
+.third-login a.tencent {
+    background-position: -1px 1px;
+}
+
+.third-login a.wechat {
+    background-position: -32px -2px;
+}
+
+.third-login a.alipay {
+    background-position: -67px -1px;
+}
+
+.third-login a.weibo {
+    background-position: -98px 0px;
+}
+
+.sign-in .pure-u-1, .sign-up .pure-u-1 {
+    position: relative;
+}
+
+label.error {
+    position: absolute;
+    background-color: #D91D2D;
+    font-size: 12px;
+    white-space: nowrap;
+    top: 12px;
+    right: 50px;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 16px;
+    height: 16px;
+    width: 16px;
+}
+
+/*登入注册 end*/
+
+/*search start*/
+.search-tab , .service_self{
+    padding: 55px 10px 0px 10px;
+}
+
+.tab-style {
+    padding: 55px 0px 0px 0px;
+}
+
+.tab-style .tabs-nav {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.search-tab > .pure-g, .tab-style > .pure-g {
+    border: 1px solid #45a635;
+    text-align: center;
+    color: #45a635;
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-tab .pure-u-1-2 a, .tab-style .pure-u-1-2 a, .tab-style .pure-u-1-3 a {
+    display: block;
+    text-decoration: none;
+    color: #45a635;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.search-tab .eight-choose a {
+    display: block;
+    width: 90%;
+    height: 20px;
+    border: 1px solid #45a635;
+    border-radius: 3px;
+    color: #45a635;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px auto 9px auto;
+    line-height: 22px;
+}
+
+.search-tab .four-goods {
+    margin-left: -10px;
+}
+
+.search-tab .tabs-content > div {
+    position: relative;
+}
+
+.search-tab ul.history li {
+    border-bottom: 1px solid #cccccc;
+    font-size: 14px;
+    padding: 3px 0px;
+}
+
+.search-tab ul.history li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.search-tab .title {
+    font-size: 13px;
+    padding: 5px;
+}
+
+.search-tab button.clear-history {
+    background-color: #DCDDDD;
+    color: #000000;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    position: fixed;
+    bottom: 15px;
+    height: 30px;
+    left: 0px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+form.search-form {
+    display: block;
+    padding: 0px 10px 0px 0px;
+}
+
+input[type=search] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    background: url("/moblieymt/images/icons/icon-input-search.png") 5px center no-repeat #fff;
+    background-size: 20px;
+}
+
+/*search end*/
+
+/*order style start*/
+.tabs-nav .has_border {
+    box-sizing: border-box;
+    border-right: 1px solid #45a635;
+    border-left: 1px solid #45a635;
+}
+
+.single-order {
+    padding: 0px 10px;
+    box-sizing: border-box;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+    font-size: 14px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    display: block;
+    overflow: hidden;
+}
+
+.single-order .order_account {
+    box-sizing: border-box;
+    padding: 5px 0px;
+    border-bottom: 1px solid #EFEFF4;
+}
+
+.single-order .order_status {
+    color: #919191;
+}
+
+.single-order .goods_detail .area {
+    padding-left: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.single-order .goods_detail {
+    padding: 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #EFEFF4;
+    position: relative;
+}
+
+.single-order .goods_detail p.goods_name {
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+
+.single-order .feedback{
+    border-bottom: 1px solid #EFEFF4;
+}
+
+.single-order .feedback .feedback-image div.pure-u-1-3{
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.single-order .feedback .feedback-image img{
+    width: 100%;
+    height: auto;
+}
+
+.single-order .feedback p{
+    font-size: 14px;
+
+}
+
+.single-order .feedback p span{
+    color: #919191;
+}
+
+.goods_detail .appeal_btn{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    padding: 5px 20px;
+    border: none;
+    background-color: #FD9005;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.goods_detail .appeal_btn.active{
+    background-color: #CCC;
+    color: #ffffff;
+}
+
+.single-order .goods_detail .goods-size {
+    display: inline-block;
+    border: 1px solid #45a635;
+    border-radius: 4px;
+    color: #45a635;
+    padding: 0px 5px;
+    font-size: 12px;
+}
+
+.single-order .goods-result {
+    padding: 5px 0px;
+    font-size: 13px;
+}
+
+div.button_line {
+    overflow: hidden;
+    margin-bottom: 7px;
+}
+
+.single-order div.button_line a,.single-order div.button_line button ,.single-order a.pay{
+    outline: none;
+    border: 1px solid #FD9005;
+    background-color: #ffffff;
+    color: #FD9005;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 12px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.single-order .goods-result .orange {
+    color: #FD9005;
+    font-weight: bolder;
+}
+
+.single-order .goods_detail .num {
+    color: #919191;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.tab-style .tabs-content {
+    margin-top: 10px;
+}
+
+.single-order .goods_detail img {
+    width: 100%;
+    height: auto;
+}
+
+/*order style end*/
+
+/*充值表单 start*/
+#recharge .padding_top_40 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#recharge .pay_input,#recharge .coupon_input {
+    border: none;
+    display: block;
+    border-bottom: 1px #cacaca solid;
+    outline: none;
+    margin: 10px auto 20px auto;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    border-radius: 0px;
+}
+
+#recharge .pay_button,#recharge .coupon_btn{
+    display: block;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #FD9005;
+    height: 32px;
+    font-size: 16px;
+    width: 100%;
+    margin: 10px auto 15px auto;
+    border-radius: 35px;
+}
+
+#recharge .buy_card {
+    color: #FD9005;
+    text-align: right;
+    float: right;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/*充值表单 end*/
+
+/*确认充值订单 start*/
+.orange {
+    color: #FD9005;
+    font-weight: bolder;
+    padding-left: 3px;
+}
+
+.font-gray {
+    color: #666666;
+}
+
+.recharge_sure {
+    margin-top: 46px;
+}
+
+.recharge_sure ul.pay_type {
+    display: block;
+    overflow: hidden;
+}
+
+.recharge_sure .one_area,.recharge_sure ul.pay_type li {
+    padding: 10px 0px;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 1em;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.recharge_sure ul.pay_type li.active{
+    background: url("/moblieymt/images/icons/icon_green.png") 95% center no-repeat #ffffff;
+    background-size: 20px;
+}
+
+.recharge_sure ul.pay_type li{
+    background-color: #ffffff;
+}
+
+.confirm-area {
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 45px;
+    line-height: 30px;
+    padding: 10px;
+    box-shadow: 3px 3px 20px 8px #cacaca;
+}
+
+.confirm-area .pay-it{
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #FD9005;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 35px;
+    width: 100px;
+}
+/*确认充值订单 end*/
+
+/*售后服务 start*/
+
+#service{
+    width: 280px !important;
+    display: none;
+
+}
+
+#service .telephone,#service .wechat,#service .self{
+    display: block;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-size: 12px;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    line-height: 70px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+#service .wechat{
+    background-color: #88CA42;
+}
+
+#service .telephone{
+    background-color: #87B7EF;
+}
+
+#service .self{
+    background-color: #E6A6B2;
+}
+
+#service .closed a{
+    border: 1px solid #ffffff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    border-radius: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    margin: 20px auto;
+}
+/*售后服务 end*/
+
+/*自助反馈 start*/
+
+.service_self{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.service_self #files{
+    display: none;
+}
+
+.service_self #images{
+    margin:10px auto;
+}
+
+.service_self #image img{
+    width: 33.3%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.service_self form{
+    /* width: 90%; */
+    margin: 0 auto;
+    /* padding: 15px 10px 8px 10px; */
+}
+
+.service_self textarea{
+    width: 100%;
+    border: 1px solid #D7D7D7;
+    resize: none;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.service_self .service_btn{
+    display: block;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #FD9005;
+    height: 32px;
+    font-size: 12px;
+    width: 95%;
+    margin: 10px auto 15px auto;
+    border-radius: 35px;
+}
+
+.service_self .gray{
+    color: #919191;
+}
+/*自助反馈 end*/

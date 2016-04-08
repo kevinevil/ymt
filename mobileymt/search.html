@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>搜索</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/form.css" type="text/css" rel="stylesheet">
+    <link href="css/common/home.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/asTabs.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-5">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-4-5">
+            <form class="search-form">
+                <input type="search" class="search-input">
+            </form>
+        </li>
+    </ul>
+</header>
+
+<div class="search-tab">
+    <ul class="tabs-nav with-js pure-g">
+        <li class="is-active pure-u-1-2">热门搜索</li>
+        <li class="pure-u-1-2">历史记录</li>
+    </ul>
+    <div class="tabs-content with-js">
+        <div class="is-active"><p class="title">一亩田推荐</p>
+            <ul class="pure-g eight-choose">
+                <li class="pure-u-1-4">
+                    <a href="#">散养土鸡</a>
+                </li>
+                <li class="pure-u-1-4">
+                    <a href="#">牛排</a>
+                </li>
+                <li class="pure-u-1-4">
+                    <a href="#">手工土豆</a>
+                </li>
+                <li class="pure-u-1-4">
+                    <a href="#">冰糖心</a>
+                </li>
+                <li class="pure-u-1-4">
+                    <a href="#">生鱼片</a>
+                </li>
+                <li class="pure-u-1-4">
+                    <a href="#">奇异果</a>
+                </li>
+                <li class="pure-u-1-4">
+                    <a href="#">肉白菜</a>
+                </li>
+                <li class="pure-u-1-4">
+                    <a href="#">土鸭蛋</a>
+                </li>
+            </ul>
+            <div class="pure-g four-goods">
+                <div class="pure-u-1-2">
+                    <div class="food-introduce">
+                        <img src="images/floorList/seafood.png" class="product-img">
+
+                        <div class="introduce-text">
+                            <p>阳澄湖大闸蟹</p>
+                            <p class="price">¥ 159</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pure-u-1-2">
+                    <div class="food-introduce">
+                        <img src="images/floorList/beangoods.png" class="product-img">
+
+                        <div class="introduce-text">
+                            <p>纯手工制作豆制品</p>
+                            <p class="price">¥ 9.5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pure-u-1-2">
+                    <div class="food-introduce">
+                        <img src="images/floorList/vegetables.png" class="product-img">
+                        <div class="introduce-text">
+                            <p>樱桃萝卜</p>
+                            <p class="price">¥20</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pure-u-1-2">
+                    <div class="food-introduce">
+                        <img src="images/floorList/birdandegg.png" class="product-img">
+                        <div class="introduce-text">
+                            <p>安吉林地散养土鸭</p>
+                            <p class="price">¥258</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul class="pure-g history">
+                <li class="pure-u-1"><a href="#">龙虾</a></li>
+                <li class="pure-u-1"><a href="#">小火鸡</a></li>
+            </ul>
+            <button class="clear-history">清除历史记录</button>
+        </div>
+    </div>
+</div>
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/searchController'], function (search) {
+        search.searchTab();
+        search.softkeyboard();
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,321 @@
+/*色拉客 css*/
+
+/*色拉客购物车 start*/
+.salads-cart .cart-list,.salads-cart-list .cart-list{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.type-slider{
+    overflow-x: scroll;
+    clear: both;
+    margin-top: 15px;
+
+}
+
+.type-slider .sub-type-slider{
+    width: 100%;
+    overflow: hidden;
+    /* padding: 0px 10px; */
+}
+
+.type-slider .sub-type-slider a{
+    color: #808080;
+}
+
+.type-slider .sub-type-slider li{
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.type-slider .sub-type-slider li img{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.type-slider .sub-type-slider li p{
+    text-align: center;
+    width: 100%;
+}
+
+.salads-cart .salad-good,.salads-cart-list .salad-good{
+    padding: 20px 0px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.salad-good .salad-good-intro{
+    color: #A9AAAE;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.salads-cart-list .cart-list a{
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.salad-good .salad-good-intro .current-price{
+    color: #E8652C;
+}
+
+.salad-good .salad-good-intro .original-price{
+    text-decoration: line-through;
+}
+
+.salad-good .delete{
+    width: 20px;
+    height: 20px;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    background-color: #ddd;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.salad-good .salad-good-name{
+    margin-bottom: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80%;
+}
+
+.delete_all{
+    display: inline-block;
+    width: 18px;
+    /* height: 18px; */
+    padding: 0px 15px;
+}
+.delete_all img{
+    width: 100%;
+    height: auto;
+}
+
+.salads-cart .salad-good img{
+    width: 90%;
+    height: auto;
+}
+
+.number-group button {
+    padding: 0px;
+    background-color: #fff;
+    display: inline-block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px #d5d7d5 solid;
+    outline: none;
+    color: #231815;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 28px;
+}
+
+.number-group input {
+    font-weight: bolder;
+    padding: 0px;
+    /* background-color: #e9ede8; */
+    display: inline-block;
+    float: left;
+    width: 28px;
+    height: 28px;
+    border: none;
+    outline: none;
+    color: #231815;
+    font-size: 12px;
+    text-align: center;
+}
+
+.settle {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 45px;
+    font-size: 14px;
+    line-height: 30px;
+    background-color: #fff;
+    box-shadow: 3px 3px 20px 8px #cacaca;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.settle .total-text {
+    margin-left: 5px;
+    color: #FD9005;
+}
+
+.settle .total-pay {
+    color: #FD9005;
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    position: relative;
+}
+
+.settle a.pay {
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #FD9005;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 35px;
+    width: 100px;
+    display: inherit;
+    text-align: center;
+    line-height: 25px;
+}
+
+/*色拉客购物车 end*/
+
+/*色拉客列表*/
+.salads-cart-list .cart-list .photo img{
+    width: 90%;
+    height: auto;
+}
+
+.salads-cart-list .addCart{
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 1;
+    outline: none;
+    border: none;
+    background: url("/moblieymt/images/icons/shopping-cart.png") center center no-repeat #cde1c4;
+    background-size: contain;
+}
+
+/*色拉客个人中心 start*/
+.one-page-screen .above-area{
+    height: 45%;
+    box-sizing: border-box;
+    background: url("/moblieymt/images/salads/salad-userinfo-bg.png") bottom center no-repeat;
+    background-size: 100% 90%;
+    padding-top: 46px;
+    position: relative;
+    z-index: 99;
+}
+
+.one-page-screen .below-area{
+    height: 55%;
+    box-sizing: border-box;
+    position: relative;
+    background: url("/moblieymt/images/salads/salad-below-bg.jpg") center center no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.above-area .user-header{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: -50px;
+    right: 25px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.above-area .user-name{
+    line-height: 25px;
+    position: absolute;
+    bottom: -35px;
+    right: 145px;
+    color: #8fc31f;
+    text-align: left;
+}
+
+.above-area .user-header img{
+    width: 100%;
+    height: 100%;
+}
+
+.below-area ul.salad-links{
+    display: block;
+    width: 90%;
+    margin-left: 10%;
+    overflow: hidden;
+    padding-top: 10%;
+}
+
+.below-area ul.salad-links li{
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    text-indent: 1em;
+}
+
+.below-area ul.salad-links li a{
+    color: #638c0b;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: url("/moblieymt/images/icons/icon_allow.png") 85% -21px no-repeat;
+    background-size: 12px;
+}
+
+.forcompany .top-text{
+    padding: 15px 0px 10px 0px;
+    color: #808080;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.forcompany .form-controller{
+    width: 90%;
+    margin: 5px auto;
+}
+
+.forcompany .form-controller .text_cont{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #d9d9d9;
+    height: 32px;
+    font-size: 14px;
+}
+
+.forcompany .form-controller .text_cont.none_border{
+    border: none;
+}
+
+.forcompany .has_bottom_border{
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.forcompany .btn_submit{
+    display: block;
+    height: 30px;
+    font-size: 14px;
+    width: 150px;
+    background-color: #E8652C;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 32px;
+}
+
+.forcompany .intov{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.forcompany .intov img{
+    width: 100%;
+    height: auto;
+}
+/*色拉客个人中心 end*/
+

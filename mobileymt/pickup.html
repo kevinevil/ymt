@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>提货</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/indiv.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/sweetalert.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4 ">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            提货券
+        </li>
+        <li class="pure-u-1-4">
+            <!--<a class="ft-12" href="pickuprule.html">提货规则</a>-->
+            <a class="ft-12" href="pickuplist.html">卡券列表</a>
+        </li>
+    </ul>
+</header>
+<div class="full-width fixed-clear">
+    <div class="pickup">
+        <div class="pickup_header">
+            <img src="images/icons/t_header.png">
+        </div>
+        <div class="pickup_body">
+            <form>
+                <div class="pickup-area">
+                    <div class="row-block">
+                        <label>券号</label>
+                        <input type="text" class="pickup-input pickup-num" placeholder="请输入提货券号码">
+                    </div>
+                    <div class="row-block">
+                        <label>券码</label>
+                        <input type="text" class="pickup-input pickup-pwd" placeholder="请输入提货券密码">
+                    </div>
+                    <div class="row-block">
+                        <button class="pickup-button" type="button">
+                            验证提货券
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="pickup_footer">
+            <a href="goodslist.html?products=pickup">
+                <img src="images/icons/t_footer.png">
+            </a>
+        </div>
+    </div>
+</div>
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/selectAddressController'], function (order) {
+        order.pickup();
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的关注</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/userinfo.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            我的关注
+        </li>
+        <li class="pure-u-1-4">
+            <a href="shoppingCart.html" class="cart_btn pull-right">
+                <img src="images/icons/icon-shopping.png">
+            </a>
+        </li>
+    </ul>
+</header>
+<div class="taste_history">
+    <div class="countdown_goods">
+        <div class="goods_area pure-g">
+            <a class="pure-u-1-3 photo" href="goodsdetail.html">
+                <img src="images/goods/product-5.jpg">
+            </a>
+
+            <div class="pure-u-2-3 goods_info">
+                <p class="title">崇明野生鸡蛋</p>
+
+                <div>
+                    <p class="size">10只装</p>
+                </div>
+                <div class="price">
+                    <button type="button" class="no-follow">取消关注</button>
+                    <button type="button" class="addCart"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="countdown_goods">
+        <div class="goods_area pure-g">
+            <a class="pure-u-1-3 photo" href="goodsdetail.html">
+                <img src="images/goods/product-3.jpg">
+            </a>
+
+            <div class="pure-u-2-3 goods_info">
+                <p class="title">新西兰奇异果</p>
+
+                <div>
+                    <p class="size">2只装</p>
+                </div>
+                <div class="price">
+                    <button type="button" class="no-follow">取消关注</button>
+                    <button type="button" class="addCart"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="countdown_goods">
+        <div class="goods_area pure-g">
+            <a class="pure-u-1-3 photo" href="goodsdetail.html">
+                <img src="images/goods/product-3.jpg">
+            </a>
+
+            <div class="pure-u-2-3 goods_info">
+                <p class="title">新西兰奇异果</p>
+
+                <div>
+                    <p class="size">2只装</p>
+                </div>
+                <div class="price">
+                    <button type="button" class="no-follow">取消关注</button>
+                    <button type="button" class="addCart"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+
+<script>
+    seajs.use(['./js/common/masterController'], function (master) {
+        master.rushgoodsaddcart();
+        master.deletefollow();
+    })
+</script>
+</body>
+</html>

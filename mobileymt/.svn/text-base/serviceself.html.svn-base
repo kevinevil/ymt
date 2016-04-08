@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>自助反馈</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/form.css" type="text/css" rel="stylesheet">
+    <link href="css/common/home.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/sweetalert.css" type="text/css" rel="stylesheet">
+</head>
+<body class="bg_gray">
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            自助反馈
+        </li>
+        <li class="pure-u-1-4">
+            <a href="servicerate.html" class="ft-12">售后进度</a>
+        </li>
+    </ul>
+</header>
+
+<div class="service_self">
+    <div class="single-order">
+        <div class="order_account">
+            <label>订单编号:</label>
+            <span>1112353912331131</span>
+        </div>
+        <div class="order_goods_list">
+            <div class="goods_detail pure-g">
+                <div class="pure-u-1-4">
+                    <img src="images/goods/product-1.jpg">
+                </div>
+                <div class="pure-u-3-4 area">
+                    <p class="goods_name">广东皇帝贡柑</p>
+
+                    <div class="goods_info">
+                        <span class="goods-size">原箱装</span>
+                        <span class="num">x2</span>
+                    </div>
+                </div>
+                <button class="appeal_btn" data-goodsId="ymt201912031">申诉</button>
+            </div>
+            <div class="goods_detail pure-g">
+                <div class="pure-u-1-4">
+                    <img src="images/goods/product-3.jpg">
+                </div>
+                <div class="pure-u-3-4 area">
+                    <p class="goods_name">广东皇帝贡柑</p>
+                    <div class="goods_info">
+                        <span class="goods-size">原箱装</span>
+                        <span class="num">x2</span>
+                    </div>
+                </div>
+                <button class="appeal_btn" data-goodsId="ymt201912032">申诉</button>
+            </div>
+        </div>
+        <div class="goods-result text-right">
+            共<span>2</span>个商品&nbsp;实付金额:<span class="orange">￥28.00</span>
+        </div>
+    </div>
+    <form action="">
+        <select>
+            <option>服务</option>
+            <option>配送</option>
+            <option>产品质量</option>
+        </select>
+        <input type="hidden" class="product_id_arr">
+        <textarea class="ft-16" rows="5" placeholder="请填写商品反馈."></textarea>
+
+
+        <input type="file" id="files" multiple/>
+    </form>
+    <div id="image" class="row-block"></div>
+    <p class="gray ft-12">
+        注:最多选择3张图片,每次选择会从新选择图片
+    </p>
+    <div class="pure-g">
+        <div class="pure-u-1-2">
+            <button type="button" class="select-images service_btn">选择需要上传的图片</button>
+        </div>
+        <div class="pure-u-1-2">
+            <button type="button" class="service_btn service_submit">提交反馈</button>
+        </div>
+    </div>
+</div>
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/orderController'], function (order) {
+        order.selectimages();
+        order.servicesubmit();
+        order.appealgoods();
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>提货券商品</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/indiv.css" type="text/css" rel="stylesheet">
+    <link href="css/common/form.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/sweetalert.css" type="text/css" rel="stylesheet">
+
+</head>
+<!--/*单个商品选择*/-->
+<body>
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            提货
+        </li>
+        <li class="pure-u-1-4">
+            <a class="ft-12" href="pickuprule.html">提货规则</a>
+        </li>
+    </ul>
+</header>
+
+
+<div class="replacebuy-title">
+    请选择提货商品
+</div>
+
+<div class="shopping-cart-context-area max-fixed-clear">
+    <ul class="cart-list">
+        <li class="pure-g">
+            <a href="goodsdetail.html" class="pure-g">
+                <div class="pure-u-1-3">
+                    <img src="images/goods/goods_1.png">
+                </div>
+                <div class="pure-u-2-3 box-padding">
+                    <p class="title">蓝莓</p>
+
+                    <p class="goods-size">1.9Kg</p>
+
+                    <div class="pure-g padding-top-control">
+                        <p class="goods-price pure-u-1-2">￥29.00</p>
+                    </div>
+                </div>
+                <div class="check-box-area" data-goodsid="ymt192311"></div>
+            </a>
+        </li>
+        <li class="pure-g">
+            <a href="goodsdetail.html" class="pure-g">
+                <div class="pure-u-1-3">
+                    <img src="images/goods/goods_2.png">
+                </div>
+
+                <div class="pure-u-2-3 box-padding">
+                    <p class="title">福建红心蜜柚—1枚/组 </p>
+
+                    <p class="goods-size">1枚/组</p>
+
+                    <div class="pure-g padding-top-control">
+                        <p class="goods-price pure-u-1-2">￥129.00</p>
+                    </div>
+                </div>
+                <div class="check-box-area" data-goodsid="ymt2231"></div>
+            </a>
+        </li>
+        <li class="pure-g">
+            <a href="goodsdetail.html" class="pure-g">
+                <div class="pure-u-1-3">
+                    <img src="images/goods/goods_2.png">
+                </div>
+
+                <div class="pure-u-2-3 box-padding">
+                    <p class="title">福建红心蜜柚—1枚/组 </p>
+
+                    <p class="goods-size">1枚/组</p>
+
+                    <div class="pure-g padding-top-control">
+                        <p class="goods-price pure-u-1-2">￥129.00</p>
+                    </div>
+                </div>
+                <div class="check-box-area" data-goodsid="ymt2231"></div>
+            </a>
+        </li>
+        <li class="pure-g">
+            <a href="goodsdetail.html" class="pure-g">
+                <div class="pure-u-1-3">
+                    <img src="images/goods/goods_2.png">
+                </div>
+
+                <div class="pure-u-2-3 box-padding">
+                    <p class="title">福建红心蜜柚—1枚/组 </p>
+
+                    <p class="goods-size">1枚/组</p>
+
+                    <div class="pure-g padding-top-control">
+                        <p class="goods-price pure-u-1-2">￥129.00</p>
+                    </div>
+                </div>
+                <div class="check-box-area" data-goodsid="ymt2231"></div>
+            </a>
+        </li>
+        <li class="pure-g">
+            <a href="goodsdetail.html" class="pure-g">
+                <div class="pure-u-1-3">
+                    <img src="images/goods/goods_2.png">
+                </div>
+
+                <div class="pure-u-2-3 box-padding">
+                    <p class="title">福建红心蜜柚—1枚/组 </p>
+
+                    <p class="goods-size">1枚/组</p>
+
+                    <div class="pure-g padding-top-control">
+                        <p class="goods-price pure-u-1-2">￥129.00</p>
+                    </div>
+                </div>
+                <div class="check-box-area" data-goodsid="ymt2231"></div>
+            </a>
+        </li>
+        <li class="pure-g">
+            <a href="goodsdetail.html" class="pure-g">
+                <div class="pure-u-1-3">
+                    <img src="images/goods/goods_2.png">
+                </div>
+
+                <div class="pure-u-2-3 box-padding">
+                    <p class="title">福建红心蜜柚—1枚/组 </p>
+
+                    <p class="goods-size">1枚/组</p>
+
+                    <div class="pure-g padding-top-control">
+                        <p class="goods-price pure-u-1-2">￥129.00</p>
+                    </div>
+                </div>
+                <div class="check-box-area" data-goodsid="ymt2231"></div>
+            </a>
+        </li>
+    </ul>
+</div>
+<input type="hidden" class="product_id" value="">
+
+
+<div class="settle pickup-goods pure-g">
+    <div class="pure-u-1-2">
+        &nbsp;
+    </div>
+    <div class="pure-u-1-2">
+        <a href="javascript:;" class="pay pull-right">
+            结算提货券
+        </a>
+    </div>
+</div>
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/selectAddressController'], function (replacebuy) {
+        replacebuy.sameheight();
+        replacebuy.pickupselectgoods();
+    })
+</script>
+</body>
+</html>

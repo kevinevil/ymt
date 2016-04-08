@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>充值</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/form.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/asTabs.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/sweetalert.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            余额充值
+        </li>
+        <li class="pure-u-1-4">
+
+        </li>
+    </ul>
+</header>
+
+<div class="search-tab" id="recharge">
+    <ul class="tabs-nav with-js pure-g">
+        <li class="is-active pure-u-1-2">在线充值</li>
+        <li class="pure-u-1-2">卡券充值</li>
+    </ul>
+    <div class="tabs-content with-js">
+        <div class="is-active">
+            <div class="padding_top_40">
+                <input type="text" placeholder="充值金额" class="pay_input pay_sum">
+                <button type="button" class="pay_button pay-now">立即充值</button>
+            </div>
+        </div>
+        <div>
+            <div class="padding_top_40">
+                <input type="text" placeholder="请输入充值卡号码" class="pay_input">
+                <input type="text" placeholder="请输入充值卡密码" class="pay_input">
+                <button type="button" class="pay_button">充值</button>
+                <a class="buy_card" href="#">购买充值卡</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/searchController'], function (search) {
+        search.searchTab();
+        search.paynow();
+        search.rechange();
+    })
+</script>
+</body>
+</html>

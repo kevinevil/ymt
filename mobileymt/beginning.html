@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>活动列表</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/jquery.bxslider.css" type="text/css" rel="stylesheet">
+    <link href="css/common/home.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="full-width beginning-banner">
+    <ul class="beginnings">
+        <li class="beginning_1">
+            <img src="images/beginning/beginning-1.jpg">
+        </li>
+        <li class="beginning_2">
+            <img src="images/beginning/beginning-2.jpg">
+        </li>
+        <li class="beginning_3">
+            <img src="images/beginning/beginning-3.jpg">
+        </li>
+    </ul>
+</div>
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/homeController'], function (home) {
+        home.beginslider();
+    })
+</script>
+
+</body>
+</html>

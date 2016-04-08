@@ -1,0 +1,206 @@
+/*优惠券列表*/
+.coupon-list{
+    clear: both;
+    overflow: hidden;
+    padding: 60px 10px 0px 10px;
+    box-sizing: border-box;
+}
+
+.coupon-list .single-coupon{
+    height: 120px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+    color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.single-coupon.special-level .auto_ticket_img{
+    width: 100%;
+    height: 100%;
+}
+
+.single-coupon.special-level .package-name{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: #595959;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.single-coupon.special-level .package-pirce{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 16px;
+    color: #759e06;
+}
+
+.coupon-list .single-coupon.event{
+    height: 320px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+    color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.coupon-list .single-coupon a{
+    color: #ffffff;
+}
+
+.single-coupon .ticket-link{
+    height: 100%;
+}
+
+.single-coupon .ticket-link .money{
+    background-color: #fbb811;
+    border-right:1px dashed rgba(255,255,255,.3);
+    box-sizing: border-box;
+    font-size: 54px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.single-coupon .ticket-link .coupon-content{
+    box-sizing: border-box;
+    border-left: 1px dashed rgba(255,255,255,.3);
+    background-color: #fdc30a;
+    padding: 12px 10px;
+    font-size: 12px;
+    position: relative;
+    height: 120px;
+}
+
+.single-coupon .ticket-link img.eventimg{
+    width: 100%;
+    height: 100%;
+}
+
+.ticket-link .coupon-content .usage{
+    margin-top: 30px;
+}
+
+.single-coupon .ticket-link.gray .money{
+    background-color: #e6e6e6;
+}
+
+.single-coupon .gray.ticket-link .coupon-content{
+    background-color: #eeeeee;
+}
+
+.single-coupon .gray.ticket-link .drop-gray{
+    color: #ababab;
+}
+/*优惠券列表 end*/
+
+/*会员等级 start*/
+.special-level{
+    text-align: center;
+    font-size: 14px;
+    color: #000000 !important;
+}
+/*会员等级 end*/
+
+/*提货券start*/
+.coupon-list .pickup-coupon{
+    height: 120px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    box-shadow: 1px 1px 5px rgba(0,0,0,.3),1px 1px 5px rgba(0,0,0,.3);
+    color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    background: url("/moblieymt/images/icons/pickbag-orange.jpg") center center no-repeat;
+    background-size: 100% 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.coupon-list .pickup-coupon.member-beans{
+    height: 120px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    box-shadow: 1px 1px 5px rgba(0,0,0,.3),1px 1px 5px rgba(0,0,0,.3);
+    color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    background: url("/moblieymt/images/icons/member-beans-orange.png") center center no-repeat;
+    background-size: 100% 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.coupon-list .pickup-coupon.not-use{
+    background: url("/moblieymt/images/icons/pickbag-gray.jpg") center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.coupon-list .pickup-coupon.member-beans.not-use{
+    background: url("/moblieymt/images/icons/member-beans-gray.png") center center no-repeat;
+    background-size: 100% 100%;
+}
+
+
+@media screen and (device-width: 320px){
+    .coupon-list .pickup-coupon{
+        height: 100px;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+        box-shadow: 1px 1px 5px rgba(0,0,0,.3),1px 1px 5px rgba(0,0,0,.3);
+        color: #ffffff;
+        border-radius: 15px;
+        overflow: hidden;
+        background: url("/moblieymt/images/icons/pickbag-orange.jpg") center center no-repeat;
+        background-size: 100% 100%;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+
+    .coupon-list .pickup-coupon.member-beans{
+        height: 100px;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+        box-shadow: 1px 1px 5px rgba(0,0,0,.3),1px 1px 5px rgba(0,0,0,.3);
+        color: #ffffff;
+        border-radius: 15px;
+        overflow: hidden;
+        background: url("/moblieymt/images/icons/member-beans-orange.png") center center no-repeat;
+        background-size: 100% 100%;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+}
+
+.pickup-coupon .pure-g{
+    height: 100%;
+}
+
+.pickup-coupon .pure-g .pure-u-3-4,.pickup-coupon .pure-g .pure-u-1-4{
+    height: 100%;
+}
+
+.pickup-coupon .pick-title{
+    font-size: 18px;
+    line-height: 100px;
+    color: #ffffff;
+}
+
+.pickup-coupon .pickup-status{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: #ffffff;
+    width: 100%;
+}
+
+.pickup-status label{
+    margin-right: 5px;
+}
+/*提货券end*/

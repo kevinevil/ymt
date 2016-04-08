@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>苗圃百科</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/information.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/jquery.bxslider.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            苗圃百科
+        </li>
+        <li class="pure-u-1-4">
+
+        </li>
+    </ul>
+</header>
+<div class="row-block garden-scroll">
+    <ul class="garden-links fixed-clear">
+        <li><a class="active" data-slide-index="0">推荐</a></li>
+        <li><a data-slide-index="1" data-seletor='yanshen'>健康养生</a></li>
+        <li><a data-slide-index="2">小知识</a></li>
+        <li><a data-slide-index="3">料理</a></li>
+        <li><a data-slide-index="4">趣闻</a></li>
+        <li><a data-slide-index="5">媒体报道</a></li>
+    </ul>
+</div>
+<ul class="bxslider max-fixed-clear">
+    <li>
+        <div class="news-notice-list row-block">
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">1中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_1.JPG">
+                </a>
+            </div>
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_2.JPG">
+                </a>
+            </div>
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_3.JPG">
+                </a>
+            </div>
+            <div class="news-single-info">
+                <a href="#" class="loadmore likebtn">更多文章</a>
+            </div>
+        </div>
+    </li>
+    <li class="yanshen">
+        <div class="news-notice-list row-block">
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">2中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_1.JPG">
+                </a>
+            </div>
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_2.JPG">
+                </a>
+            </div>
+            <div class="news-single-info">
+                <a href="#" class="loadmore likebtn">更多文章</a>
+            </div>
+        </div>
+
+    </li>
+    <li>
+        <div class="news-notice-list row-block">
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_1.JPG">
+                </a>
+            </div>
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_2.JPG">
+                </a>
+            </div>
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_3.JPG">
+                </a>
+            </div>
+            <div class="news-single-info">
+                <a href="#" class="loadmore likebtn">更多文章</a>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="news-notice-list row-block">
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_1.JPG">
+                </a>
+            </div>
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_2.JPG">
+                </a>
+            </div>
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_3.JPG">
+                </a>
+            </div>
+            <div class="news-single-info">
+                <button>更多文章</button>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="news-notice-list row-block">
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_1.JPG">
+                </a>
+            </div>
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_2.JPG">
+                </a>
+            </div>
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_3.JPG">
+                </a>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="news-notice-list row-block">
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_1.JPG">
+                </a>
+            </div>
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_2.JPG">
+                </a>
+            </div>
+            <div class="news-single-info">
+                <a href="newsDetail.html" class="news-article row-block">
+                    <div class="news-info-title"><span class="title-kind">精选</span><span>水果的“四性”“五味”</span></div>
+                    <p class="info">中国自古就有“药食同源”之说,很多事物即是药物,它们之间并无绝对的分界线.古代医药家将中药的四性,它们之间并无绝对的分界线.古代医药家将中药的四性</p>
+                    <img src="images/salads/salad_3.JPG">
+                </a>
+            </div>
+        </div>
+    </li>
+</ul>
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/newsController'], function (news) {
+        news.newsslider();
+    })
+</script>
+</body>
+</html>

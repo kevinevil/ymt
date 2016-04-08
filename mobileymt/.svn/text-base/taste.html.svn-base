@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>试吃申请</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/indiv.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/jquery.bxslider.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/sweetalert.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="banner-area">
+    <ul class="bxslider">
+        <li><a><img class="first" src="images/detail/d1.jpg"></a></li>
+        <li><a><img src="images/detail/d2.jpg"></a></li>
+        <li><a><img src="images/detail/d3.jpg"></a></li>
+    </ul>
+</div>
+
+<div class="detail-area">
+    <h3>福建黄金柚</h3>
+
+    <div class="prices_area">
+        <span class="ft-24 orange">￥0</span><span class="ft-12 text-hasline gray">￥19.00</span>
+    </div>
+</div>
+<ul class="taste_list">
+    <li><a href="tasteDetail.html">图文详情</a></li>
+    <li><a href="tasterule.html">试吃规则</a></li>
+    <li><a href="tastehistory.html">往期试吃</a></li>
+</ul>
+
+<div class="taste_box text-center ft-12">
+    <ul>
+        <li>
+            <p class="gray_text">已申请</p>
+
+            <p>12315</p>
+        </li>
+        <li>
+            <p class="gray_text">到期日</p>
+
+            <p>12月14日10时</p>
+        </li>
+    </ul>
+    <div class="text-center">
+        <button class="taste_btn">申请试吃</button>
+    </div>
+</div>
+
+<div class="address_box">
+    <div class="address-title row-block">
+        <span class="pull-left">选择收货地址:</span>
+        <span class="pull-right ft-24 closed">&times;</span>
+    </div>
+    <div class="row-block address-body">
+        <a href="addressselect.html?origin=taste" class="row-block">
+            <div>
+                <p class="ft-20">某某某<span class="address-type ft-12">公司</span></p>
+            </div>
+            <div>
+                <span>上海</span>
+                <span>上海市</span>
+                <span>徐汇区</span>
+            </div>
+            <p class="address_info">
+                青州北路1199号87号楼8号楼302
+            </p>
+
+            <p>138****7813</p>
+        </a>
+    </div>
+    <div class="text-center">
+        <button class="apply_btn">提交申请</button>
+    </div>
+</div>
+
+
+<a href="javascript:;" class="go_back" onclick="history.go(-1);"></a>
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/homeController'], function (home) {
+        home.bannerslider();
+        home.tastefix();
+    })
+</script>
+
+</body>
+</html>

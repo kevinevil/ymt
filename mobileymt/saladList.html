@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>色拉客产品列表</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/sweetalert.css" type="text/css" rel="stylesheet">
+    <link href="css/common/salad.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            色拉客产品列表
+        </li>
+        <li class="pure-u-1-4">
+            <a href="saladCart.html" class="cart_btn pull-right">
+                <i class="shopping-cart-num">1</i>
+                <img src="images/icons/icon-shopping.png">
+            </a>
+        </li>
+    </ul>
+</header>
+<div class="salads-cart-list fixed-clear">
+    <div class="cart-list">
+        <a href="saladDetail.html" class="salad-good pure-g">
+            <div class="photo pure-u-2-5">
+                <img src="images/salads/salad_5.JPG">
+            </div>
+            <div class="pure-u-3-5">
+                <p class="salad-good-name ft-16">
+                    色拉客招牌肉酱面(色拉客招牌肉酱面)
+                </p>
+                <p class="salad-good-intro">
+                    <span>单价:</span>
+                    <span class="current-price">40元</span>
+                    <span class="original-price ft-12">80元</span>
+                </p>
+            </div>
+            <button class="addCart"></button>
+        </a>
+        <a href="saladDetail.html" class="salad-good pure-g">
+            <div class="photo pure-u-2-5">
+                <img src="images/salads/salad_4.JPG">
+            </div>
+            <div class="pure-u-3-5">
+                <p class="salad-good-name ft-16">
+                    色拉客招牌肉酱面(色拉客招牌肉酱面)
+                </p>
+                <p class="salad-good-intro">
+                    <span>单价:</span>
+                    <span class="current-price">40元</span>
+                    <span class="original-price ft-12">80元</span>
+                </p>
+            </div>
+            <button class="addCart"></button>
+        </a>
+        <a href="saladDetail.html" class="salad-good pure-g">
+            <div class="photo pure-u-2-5">
+                <img src="images/salads/salad_3.JPG">
+            </div>
+            <div class="pure-u-3-5">
+                <p class="salad-good-name ft-16">
+                    色拉客招牌肉酱面(色拉客招牌肉酱面)
+                </p>
+                <p class="salad-good-intro">
+                    <span>单价:</span>
+                    <span class="current-price">40元</span>
+                    <span class="original-price ft-12">80元</span>
+                </p>
+            </div>
+            <button class="addCart"></button>
+        </a>
+        <a href="saladDetail.html" class="salad-good pure-g">
+            <div class="photo pure-u-2-5">
+                <img src="images/salads/salad_2.JPG">
+            </div>
+            <div class="pure-u-3-5">
+                <p class="salad-good-name ft-16">
+                    色拉客招牌肉酱面(色拉客招牌肉酱面)
+                </p>
+                <p class="salad-good-intro">
+                    <span>单价:</span>
+                    <span class="current-price">40元</span>
+                    <span class="original-price ft-12">80元</span>
+                </p>
+            </div>
+            <button class="addCart"></button>
+        </a>
+    </div>
+</div>
+
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+
+<script>
+    seajs.use(['./js/common/saladController.js'], function (salad) {
+        salad.saladListAddCart();
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>会员等级</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/userinfo.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            会员等级
+        </li>
+        <li class="pure-u-1-4">
+            <a class="ft-12" href="memberlevelrule.html">等级介绍</a>
+        </li>
+    </ul>
+</header>
+<div class="member_level">
+    <div class="level_above">
+        <div class="level_start_area">
+            <div class="start_list">
+                <ul>
+                    <li class="first active"></li>
+                    <li class="second"></li>
+                    <li class="center"></li>
+                    <li class="second"></li>
+                    <li class="first"></li>
+                </ul>
+            </div>
+        </div>
+        <p class="level_v">V</p>
+
+        <p class="level_num">9</p>
+    </div>
+    <div class="level_down">
+        <div class="sta"></div>
+        <div class="pure-g bottom_area">
+            <div class="pure-u-1-2">
+                <div class="level_bubble">
+                    <p>已消费</p>
+
+                    <p>0</p>
+
+                    <p>元</p>
+                </div>
+                <p class="p-top">升级还需0元</p>
+            </div>
+            <div class="pure-u-1-2">
+                <div class="level_bubble">
+                    <p>已消费</p>
+
+                    <p>0</p>
+
+                    <p>元</p>
+                </div>
+                <p class="p-top">升级还需0元</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+
+<script>
+    seajs.use(['./js/common/masterController'], function (master) {
+
+    })
+</script>
+</body>
+</html>

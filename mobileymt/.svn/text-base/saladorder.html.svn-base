@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>色拉客 - 订单</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/form.css" type="text/css" rel="stylesheet">
+    <link href="css/common/home.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/asTabs.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/sweetalert.css" type="text/css" rel="stylesheet">
+</head>
+<body class="bg_gray">
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            色拉客 - 订单
+        </li>
+        <li class="pure-u-1-4">
+
+        </li>
+    </ul>
+</header>
+
+<div class="order-tab tab-style">
+    <ul class="tabs-nav with-js pure-g">
+        <li class="is-active pure-u-1-3">未完成</li>
+        <li class="pure-u-1-3 has_border">已完成</li>
+        <li class="pure-u-1-3">已取消</li>
+    </ul>
+    <div class="tabs-content with-js">
+        <div class="is-active">
+            <!--一个订单 Start-->
+            <a href="orderDetail.html" class="single-order row-block">
+                <div class="order_account">
+                    <label>订单编号:</label>
+                    <span>1112353912331131</span>
+                    <span class="pull-right order_status">未完成</span>
+                </div>
+                <div class="order_goods_list">
+                    <div class="goods_detail pure-g">
+                        <div class="pure-u-1-4">
+                            <img src="images/goods/product-1.jpg">
+                        </div>
+                        <div class="pure-u-3-4 area">
+                            <p class="goods_name">广东皇帝贡柑</p>
+
+                            <div class="goods_info">
+                                <span class="goods-size">原箱装</span>
+                                <span class="num">x2</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="goods_detail pure-g">
+                        <div class="pure-u-1-4">
+                            <img src="images/goods/product-3.jpg">
+                        </div>
+                        <div class="pure-u-3-4 area">
+                            <p class="goods_name">广东皇帝贡柑</p>
+
+                            <div class="goods_info">
+                                <span class="goods-size">原箱装</span>
+                                <span class="num">x2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods-result text-right">
+                    共<span>2</span>个商品&nbsp;实付金额:<span class="orange">￥28.00</span>
+                </div>
+                <div class="pay button_line">
+                    <button class="pay pull-right">立即支付</button>
+                    <button class="detele-order pull-right">取消订单</button>
+                </div>
+            </a>
+            <!--一个订单 End-->
+            <a href="orderDetail.html" class="single-order row-block">
+                <div class="order_account">
+                    <label>订单编号:</label>
+                    <span>1112353912331131</span>
+                    <span class="pull-right order_status">未完成</span>
+                </div>
+                <div class="order_goods_list">
+                    <div class="goods_detail pure-g">
+                        <div class="pure-u-1-4">
+                            <img src="images/goods/product-1.jpg">
+                        </div>
+                        <div class="pure-u-3-4 area">
+                            <p class="goods_name">广东皇帝贡柑</p>
+
+                            <div class="goods_info">
+                                <span class="goods-size">原箱装</span>
+                                <span class="num">x2</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="goods_detail pure-g">
+                        <div class="pure-u-1-4">
+                            <img src="images/goods/product-3.jpg">
+                        </div>
+                        <div class="pure-u-3-4 area">
+                            <p class="goods_name">广东皇帝贡柑</p>
+
+                            <div class="goods_info">
+                                <span class="goods-size">原箱装</span>
+                                <span class="num">x2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods-result text-right">
+                    共<span>2</span>个商品&nbsp;实付金额:<span class="orange">￥28.00</span>
+                </div>
+                <div class="pay button_line">
+                    <button class="pay pull-right">立即支付</button>
+                    <button class="detele-order pull-right">取消订单</button>
+                </div>
+            </a>
+        </div>
+        <div>
+            <a href="orderDetail.html" class="single-order row-block">
+                <div class="order_account">
+                    <label>订单编号:</label>
+                    <span>1112353912331131</span>
+                    <span class="pull-right order_status">已完成</span>
+                </div>
+                <div class="order_goods_list">
+                    <div class="goods_detail pure-g">
+                        <div class="pure-u-1-4">
+                            <img src="images/goods/product-3.jpg">
+                        </div>
+                        <div class="pure-u-3-4 area">
+                            <p class="goods_name">广东皇帝贡柑</p>
+
+                            <div class="goods_info">
+                                <span class="goods-size">原箱装</span>
+                                <span class="num">x2</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="goods_detail pure-g">
+                        <div class="pure-u-1-4">
+                            <img src="images/goods/product-4.jpg">
+                        </div>
+                        <div class="pure-u-3-4 area">
+                            <p class="goods_name">广东皇帝贡柑</p>
+
+                            <div class="goods_info">
+                                <span class="goods-size">原箱装</span>
+                                <span class="num">x2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods-result text-right">
+                    共<span>2</span>个商品&nbsp;实付金额:<span class="orange">￥28.00</span>
+                </div>
+                <div class="pay button_line">
+                    <button class="pull-right">立即评价</button>
+                </div>
+            </a>
+        </div>
+        <div>
+            <a href="orderDetail.html" class="single-order row-block">
+                <div class="order_account">
+                    <label>订单编号:</label>
+                    <span>1112353912331131</span>
+                    <span class="pull-right order_status">已取消</span>
+                </div>
+                <div class="order_goods_list">
+                    <div class="goods_detail pure-g">
+                        <div class="pure-u-1-4">
+                            <img src="images/goods/product-3.jpg">
+                        </div>
+                        <div class="pure-u-3-4 area">
+                            <p class="goods_name">广东皇帝贡柑</p>
+
+                            <div class="goods_info">
+                                <span class="goods-size">原箱装</span>
+                                <span class="num">x2</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="goods_detail pure-g">
+                        <div class="pure-u-1-4">
+                            <img src="images/goods/product-4.jpg">
+                        </div>
+                        <div class="pure-u-3-4 area">
+                            <p class="goods_name">广东皇帝贡柑</p>
+
+                            <div class="goods_info">
+                                <span class="goods-size">原箱装</span>
+                                <span class="num">x2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods-result text-right">
+                    共<span>2</span>个商品&nbsp;实付金额:<span class="orange">￥28.00</span>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</div>
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/orderController'], function (order) {
+        order.searchTab();
+        order.deleteorder();
+        order.payorder();
+    })
+</script>
+</body>
+</html>

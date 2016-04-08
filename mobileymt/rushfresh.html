@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>抢鲜</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/userinfo.css" type="text/css" rel="stylesheet">
+</head>
+<body class="rush_fruit">
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            抢鲜啦
+        </li>
+        <li class="pure-u-1-4">
+            <a class="ft-12" href="rushfreshrule.html">抢鲜规则</a>
+        </li>
+    </ul>
+</header>
+<div class="banner_for_rush pure-g">
+    <img src="images/banner/rushfreshbanner.jpg">
+</div>
+<div class="padding_bottom">
+    <div class="countdown_goods">
+        <div class="countdown_time green">
+            <label class="pull-left">距结束:</label>
+
+            <div class="clock pull-left" data-countdown="2016/1/30"></div>
+        </div>
+        <div class="goods_area pure-g">
+            <div class="pure-u-1-3 photo">
+                <img src="images/goods/product-5.jpg">
+            </div>
+            <div class="pure-u-2-3 goods_info">
+                <p class="title">
+                    <span class="text-spel">崇明野生鸡蛋</span>
+                    <button class="add">+</button>
+                    <input type="text" value="1" disabled="">
+                    <button class="min">-</button>
+                </p>
+                <p class="size">10只装</p>
+
+                <div class="price">
+                    <span class="new_price">￥88.0</span>
+                    <span class="old_price">￥120.00</span>
+                </div>
+                <a href="orderDetail.html" class="like_addCart"></a>
+            </div>
+        </div>
+        <div class="estimate">
+            <p class="ft-12">预计发货日期：2016-04-01,2016-04-15,2016-04-29,2016-04-15,2016-04-29</p>
+        </div>
+    </div>
+    <div class="countdown_goods">
+        <div class="countdown_time blue">
+            <label class="pull-left">距开始:</label>
+
+            <div class="clock pull-left" data-countdown="2015/12/31"></div>
+
+        </div>
+        <div class="goods_area pure-g">
+            <div class="pure-u-1-3 photo">
+                <img src="images/goods/product-3.jpg">
+            </div>
+            <div class="pure-u-2-3 goods_info">
+                <p class="title">新西兰奇异果</p>
+
+                <p class="size">2只装</p>
+
+                <div class="price">
+                    <span class="new_price">￥8.0</span>
+                    <span class="old_price">￥12.00</span>
+                </div>
+                <button type="button" class="addCart not_click"></button>
+            </div>
+        </div>
+        <div class="estimate">
+            <p class="ft-12">预计发货日期：2016-04-01,2016-04-15,2016-04-29,2016-04-15,2016-04-29</p>
+        </div>
+    </div>
+    <div class="countdown_goods">
+        <div class="countdown_time gray">
+            <label class="pull-left">距结束:</label>
+
+            <div class="clock pull-left" data-countdown="2014/12/31"></div>
+        </div>
+        <div class="goods_area pure-g rush_end">
+            <div class="pure-u-1-3 photo">
+                <img src="images/goods/product-3.jpg">
+            </div>
+            <div class="pure-u-2-3 goods_info">
+                <p class="title">新西兰奇异果</p>
+
+                <p class="size">2只装</p>
+
+                <div class="price">
+                    <span class="new_price">￥8.0</span>
+                    <span class="old_price">￥12.00</span>
+                </div>
+                <div class="finish_end">已抢完</div>
+            </div>
+        </div>
+        <div class="estimate">
+            <p class="ft-12">预计发货日期：2016-04-01,2016-04-15,2016-04-29,2016-04-15,2016-04-29</p>
+        </div>
+    </div>
+</div>
+
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/subsetforhomeController', './js/common/masterController'], function (rush, add) {
+        rush.rushfreshaddandmin();
+        rush.arraycountdown();
+        add.rushgoodsaddcart();
+    })
+</script>
+
+</body>
+</html>

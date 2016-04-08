@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>优惠券兑换</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/form.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/asTabs.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/sweetalert.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            优惠券兑换
+        </li>
+        <li class="pure-u-1-4">
+
+        </li>
+    </ul>
+</header>
+
+<div class="search-tab" id="recharge">
+    <div class="tabs-content with-js">
+        <div class="is-active">
+            <div class="padding_top_40">
+                <input type="text" placeholder="请输入优惠券兑换码" class="coupon_input pay_sum">
+                <button type="button" class="coupon_btn">立即兑换</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+<script>
+    seajs.use(['./js/common/searchController'], function (search) {
+        search.couponcode();
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>个人中心 - 色拉客</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/common/global.css" type="text/css" rel="stylesheet">
+    <link href="css/common/salad.css" type="text/css" rel="stylesheet">
+</head>
+<body class="one-page-screen">
+<header class="header container" id="header">
+    <ul class="pure-g full-screen-height header-nav">
+        <li class="pure-u-1-4">
+            <a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>
+        </li>
+        <li class="pure-u-1-2">
+            色拉客 - 个人中心
+        </li>
+        <li class="pure-u-1-4">
+
+        </li>
+    </ul>
+</header>
+
+<div class="above-area full-width">
+    <p class="user-name">YIMUTIAN</p>
+    <div class="user-header">
+        <img src="images/icons/header.png">
+    </div>
+</div>
+<div class="below-area full-width">
+    <ul class="salad-links">
+        <li>
+            <a href="saladorder.html">我的订单</a>
+        </li>
+        <li>
+            <a href="addresslist.html">我的地址</a>
+        </li>
+        <li>
+            <a href="saladcoupon.html">我的优惠券</a>
+        </li>
+    </ul>
+</div>
+
+<script src="js/lib/sea.js"></script>
+<script src="js/lib/seajs-preload.js"></script>
+<script src="js/lib/sea.config.js"></script>
+
+<script>
+    seajs.use(['./js/common/saladController.js'], function (salad) {
+
+    })
+</script>
+</body>
+</html>

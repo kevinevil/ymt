@@ -1,0 +1,93 @@
+废除页面
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+    <!--<title>菜豆兑换</title>-->
+    <!--<meta charset="utf-8">-->
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">-->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">-->
+    <!--<link href="css/common/global.css" type="text/css" rel="stylesheet">-->
+    <!--<link href="css/common/ticket.css" type="text/css" rel="stylesheet">-->
+    <!--<link href="css/common/indiv.css" type="text/css" rel="stylesheet">-->
+    <!--<link href="css/lib/animate.css" type="text/css" rel="stylesheet">-->
+<!--</head>-->
+<!--<body>-->
+<!--<header class="header container" id="header">-->
+    <!--<ul class="pure-g full-screen-height header-nav">-->
+        <!--<li class="pure-u-1-4">-->
+            <!--<a href="javascript:;" class="go_back_for_cart" onclick="history.go(-1);"></a>-->
+        <!--</li>-->
+        <!--<li class="pure-u-1-2">-->
+            <!--菜豆兑换-->
+        <!--</li>-->
+        <!--<li class="pure-u-1-4">-->
+            <!--<a href="pickuprule.html" class="ft-12">兑换规则</a>-->
+        <!--</li>-->
+    <!--</ul>-->
+<!--</header>-->
+
+<!--<div class="coupon-list">-->
+    <!--<div class="pickup-coupon member-beans  wow fadeInUp" data-wow-duration="1s">-->
+        <!--<div class="pure-g">-->
+            <!--<a href="javascript:;" class="pure-u-3-4">-->
+                <!--<p class="pick-title">5000分兑换</p>-->
+                <!--<p class="pickup-status"><span>崇明散养鸡蛋/1盒</span><span class="pull-right">可兑换</span></p>-->
+            <!--</a>-->
+            <!--<a href="beansgoods.html" class="pure-u-1-4">-->
+
+            <!--</a>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="pickup-coupon member-beans not-use wow fadeInUp" data-wow-duration="1s" data-wow-delay="500ms">-->
+        <!--<div class="pure-g">-->
+            <!--<a href="javascript:;" class="pure-u-3-4">-->
+                <!--<p class="pick-title">5000分兑换</p>-->
+                <!--<p class="pickup-status"><span>崇明散养鸡蛋/1盒</span><span class="pull-right">不可兑换</span></p>-->
+            <!--</a>-->
+            <!--<a href="beansgoods.html" class="pure-u-1-4">-->
+
+            <!--</a>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;<div class="single-coupon wow fadeInUp" data-wow-duration="1s" data-wow-delay="600ms">&ndash;&gt;-->
+
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    <!--&lt;!&ndash;<div class="single-coupon wow fadeInUp" data-wow-duration="1s" data-wow-delay="900ms">&ndash;&gt;-->
+
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    <!--&lt;!&ndash;<div class="single-coupon wow fadeInUp" data-wow-duration="1s" data-wow-delay="1200ms">&ndash;&gt;-->
+
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--</div>-->
+
+<!--<div class="settle pickup-goods pure-g">-->
+    <!--<div class="pure-u-1-2">-->
+        <!--&nbsp;-->
+    <!--</div>-->
+    <!--<div class="pure-u-1-2">-->
+        <!--<span class="total-text ft-12">可用菜豆:</span>-->
+        <!--<span class="total-text">99900000</span>-->
+    <!--</div>-->
+<!--</div>-->
+
+
+<!--<script src="js/lib/sea.js"></script>-->
+<!--<script src="js/lib/seajs-preload.js"></script>-->
+<!--<script src="js/lib/sea.config.js"></script>-->
+<!--<script src="js/lib/wow.min.js"></script>-->
+<!--<script>-->
+    <!--wow = new WOW({-->
+        <!--boxClass: 'wow',-->
+        <!--offset: '3',-->
+        <!--mobile: true-->
+    <!--})-->
+    <!--wow.init();-->
+<!--</script>-->
+<!--<script>-->
+    <!--seajs.use(['./js/common/homeController'], function (home) {-->
+
+    <!--})-->
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
